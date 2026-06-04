@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "current_month": "May 2026",
+  "thresholds": {
+    "skz": {
+      "min_hearts": 3,
+      "top_pct": 20
+    },
+    "vtuber": {
+      "min_hearts": 4,
+      "top_pct": 15
+    },
+    "bts": {
+      "min_hearts": 2,
+      "top_pct": 25
+    },
+    "jpop": {
+      "min_hearts": 3,
+      "top_pct": 20
+    },
+    "ateez": {
+      "min_hearts": 2,
+      "top_pct": 25
+    },
+    "euro": {
+      "min_hearts": 2,
+      "top_pct": 25
+    },
+    "morekpop": {
+      "min_hearts": 3,
+      "top_pct": 20
+    },
+    "enhypen": {
+      "min_hearts": 1,
+      "top_pct": 50
+    },
+    "rock": {
+      "min_hearts": 2,
+      "top_pct": 25
+    },
+    "other": {
+      "min_hearts": 2,
+      "top_pct": 25
+    }
+  },
+  "overrides": [
+    {
+      "artist": "DAY6",
+      "song": "Killing Voice",
+      "badge": "queue",
+      "badge_text": "⏳ JUNE"
+    }
+  ],
+  "attribution_fixes": [
+    {
+      "match": {
+        "artist": "Ado",
+        "song_contains": "hated by life"
+      },
+      "fix": {
+        "artist": "MafuMafu",
+        "song": "Hated by Life Itself"
+      }
+    },
+    {
+      "match": {
+        "artist": "MILLI",
+        "song_contains": "crying for rain"
+      },
+      "fix": {
+        "artist": "Minami",
+        "song": "Crying for Rain"
+      }
+    },
+    {
+      "match": {
+        "artist": "9lana",
+        "song_contains": "wink"
+      },
+      "fix": {
+        "artist": "Azari",
+        "song": "Wink feat. Rosu/Roce"
+      }
+    },
+    {
+      "match": {
+        "artist": "Gurenge",
+        "song_contains": "lisa"
+      },
+      "fix": {
+        "artist": "LiSA",
+        "song": "Gurenge"
+      }
+    },
+    {
+      "match": {
+        "artist": "Aespa- Dirty Work",
+        "song_contains": "dirty work"
+      },
+      "fix": {
+        "artist": "Aespa",
+        "song": "Dirty Work"
+      }
+    },
+    {
+      "match": {
+        "artist": "Tuki. x Yuuri",
+        "song_contains": "bansanka"
+      },
+      "fix": {
+        "artist": "Tuki.",
+        "song": "Bansanka"
+      }
+    }
+  ]
+}
