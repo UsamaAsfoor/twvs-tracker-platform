@@ -10,8 +10,18 @@ Output: done_matches.json  →  { "<nk(artist)|nk(song)>": {date, study} }
 import os, sys, json, re, time, urllib.request, urllib.error
 from collections import defaultdict
 
-DATA = os.path.expanduser("~/TWVS/data")
-KEY = "".join(open(os.path.join(os.path.dirname(DATA), "anthropic_api_key.txt")).read().split())
+DATA = os.environ.get("TWVS_DATA_DIR", os.path.expanduser("~/TWVS/data"))
+
+def _load_key():
+    k = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if k:
+        return k
+    key_path = os.path.join(os.path.dirname(DATA), "anthropic_api_key.txt")
+    if os.path.isfile(key_path):
+        return "".join(open(key_path).read().split())
+    return ""
+
+KEY = _load_key()
 MODEL = "claude-haiku-4-5-20251001"
 BATCH = 20
 

@@ -12,11 +12,21 @@ Usage:
 """
 import os, sys, json, time, hashlib, urllib.request, urllib.error
 
-sys.path.insert(0, os.path.expanduser("~/TWVS/scripts"))
+sys.path.insert(0, os.environ.get("TWVS_SCRIPTS_DIR", os.path.expanduser("~/TWVS/scripts")))
 from rebuild_tracker_allmonths import URL_MONTH, post_id
 
-DATA = os.path.expanduser("~/TWVS/data")
-KEY = "".join(open(os.path.join(os.path.dirname(DATA), "anthropic_api_key.txt")).read().split())
+DATA = os.environ.get("TWVS_DATA_DIR", os.path.expanduser("~/TWVS/data"))
+
+def _load_key():
+    k = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if k:
+        return k
+    key_path = os.path.join(os.path.dirname(DATA), "anthropic_api_key.txt")
+    if os.path.isfile(key_path):
+        return "".join(open(key_path).read().split())
+    return ""
+
+KEY = _load_key()
 MODEL = "claude-haiku-4-5-20251001"
 CACHE_PATH = os.path.join(DATA, "song_requests_llm_cache.json")
 OUT_PATH = os.path.join(DATA, "song_requests_llm.json")

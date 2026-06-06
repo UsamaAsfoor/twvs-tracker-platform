@@ -10,10 +10,11 @@ before any HTML is rendered. No output file is published.
 import os, sys, re, json
 from collections import defaultdict, Counter
 
-sys.path.insert(0, os.path.expanduser("~/TWVS/scripts"))
+_SCRIPTS = os.environ.get("TWVS_SCRIPTS_DIR", os.path.expanduser("~/TWVS/scripts"))
+sys.path.insert(0, _SCRIPTS)
 import generate_tracker as G
 
-DATA = os.path.expanduser("~/TWVS/data")
+DATA = os.environ.get("TWVS_DATA_DIR", os.path.expanduser("~/TWVS/data"))
 
 # URL id -> (YYYY-MM, type). Derived from the captured post_title of each post.
 URL_MONTH = {

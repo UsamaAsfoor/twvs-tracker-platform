@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TWVS Community Request Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-top">
+      <a href="https://www.timwelchmusic.com/" class="site-logo" aria-label="Tim Welch Vocal Studio — Home">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/54fe223be4b0a76e3a8c8b51/55839302-dd85-4dc4-9fde-e4081af4faac/Untitled_Artwork+2.png"
+          alt="Tim Welch Vocal Studio"
+          width="240"
+          height="64"
+        >
+      </a>
+      <div class="site-social">
+        <a href="https://www.patreon.com/c/TImWelchVocalStudio" target="_blank" rel="noopener" aria-label="Patreon">Patreon</a>
+        <a href="https://www.youtube.com/@TimWelchVocalStudio" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+        <a href="https://www.instagram.com/timwelchvocalstudio/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
+    <nav class="site-nav" aria-label="Site navigation">
+      <a href="https://www.timwelchmusic.com/">Home</a>
+      <a href="https://www.timwelchmusic.com/about-us">About us</a>
+      <a href="https://www.timwelchmusic.com/staff">Instructors and Staff</a>
+      <a href="https://www.timwelchmusic.com/tims-content-schedule">Tim's Content Schedule</a>
+      <a href="https://www.timwelchmusic.com/in-the-press">In the Press</a>
+      <a href="https://www.timwelchmusic.com/testimonials">Testimonials</a>
+      <a href="https://www.timwelchmusic.com/mission">Mission</a>
+      <a href="https://www.timwelchmusic.com/community-singing-parties">Singing Parties</a>
+      <a href="https://www.timwelchmusic.com/adults-2">Adults</a>
+      <a href="https://www.timwelchmusic.com/youth-singing-lessons">Youth 7–17</a>
+      <a href="https://www.timwelchmusic.com/onlineacademy">Online Voice Lessons</a>
+      <a href="https://www.timwelchmusic.com/book-a-lesson-3">Book A Lesson</a>
+      <a href="https://www.timwelchmusic.com/rates">Rates</a>
+      <a href="https://www.timwelchmusic.com/contact-us">Contact</a>
+    </nav>
+  </header>
+
+  <div id="app" class="page loading">
+    <header class="header">
+      <h1>TWVS Community Request Tracker</h1>
+      <p id="subtitle" class="subtitle">Loading tracker data…</p>
+    </header>
+
+    <div class="mode-toggle">
+      <button type="button" id="mode-cumulative-btn" class="mode-btn active" data-mode="cumulative">Cumulative</button>
+      <button type="button" id="mode-current-btn" class="mode-btn" data-mode="current">Current Month</button>
+    </div>
+
+    <div id="cum-panel" class="mode-panel active" data-mode="cumulative">
+      <p id="cum-scope" class="scope"></p>
+      <div class="stats">
+        <div class="stat"><div id="cum-requests" class="num">—</div><div class="lbl">Active Requests</div></div>
+        <div class="stat"><div id="cum-hearts" class="num">—</div><div class="lbl">Total Hearts</div></div>
+      </div>
+    </div>
+
+    <div id="cur-panel" class="mode-panel" data-mode="current">
+      <p id="cur-scope" class="scope"></p>
+      <div class="stats">
+        <div class="stat"><div id="cur-requests" class="num">—</div><div class="lbl">Songs This Month</div></div>
+        <div class="stat"><div id="cur-hearts" class="num">—</div><div class="lbl">Total Hearts</div></div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input id="search" class="search" type="search" placeholder="Search requests…" autocomplete="off">
+      <div id="tabs" class="tabs"></div>
+    </div>
+
+    <div id="sections"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

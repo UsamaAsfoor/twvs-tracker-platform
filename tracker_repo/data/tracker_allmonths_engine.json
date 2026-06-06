@@ -10,6 +10,7 @@
     "2026-05",
     "2026-06"
   ],
+  "current_month": "2025-10",
   "cumulative": [
     {
       "artist": "Stray Kids",
@@ -647,7 +648,7 @@
         "Berry"
       ],
       "url": "https://youtu.be/t4YJEekL1f8?si=fztquVQq380Cpi0p",
-      "done_date": "2026-05-08"
+      "done_date": ""
     },
     {
       "artist": "Nanashi Mumei",
@@ -6020,7 +6021,7 @@
     {
       "artist": "Queen",
       "song": "Highlander Soundtrack",
-      "tab": "musical",
+      "tab": "other",
       "total": 10,
       "by_month": {
         "2026-06": 10
@@ -7237,7 +7238,7 @@
     {
       "artist": "Various",
       "song": "Arcane OST (Dynasties and Dystopia / What Could Have Been / Come Play)",
-      "tab": "musical",
+      "tab": "other",
       "total": 8,
       "by_month": {
         "2026-03": 8
@@ -7408,7 +7409,7 @@
     {
       "artist": "Fortiche",
       "song": "ARCANE",
-      "tab": "musical",
+      "tab": "other",
       "total": 8,
       "by_month": {
         "2026-05": 8
@@ -8339,7 +8340,7 @@
     {
       "artist": "Ironmouse",
       "song": "The Ballad of Jane Doe",
-      "tab": "musical",
+      "tab": "vtuber",
       "total": 7,
       "by_month": {
         "2026-04": 7
@@ -9493,7 +9494,7 @@
     {
       "artist": "Waitress Cast",
       "song": "Waitress",
-      "tab": "musical",
+      "tab": "other",
       "total": 6,
       "by_month": {
         "2026-03": 6
@@ -10497,7 +10498,7 @@
     {
       "artist": "Repo! The Genetic Opera cast",
       "song": "Zydrate Anatomy",
-      "tab": "musical",
+      "tab": "other",
       "total": 5,
       "by_month": {
         "2025-10": 5
@@ -10539,7 +10540,7 @@
     {
       "artist": "Glen Hansard and Marketa Irglova",
       "song": "Falling Slowly",
-      "tab": "musical",
+      "tab": "other",
       "total": 5,
       "by_month": {
         "2025-10": 4,
@@ -11542,7 +11543,7 @@
     {
       "artist": "Emily Rohm",
       "song": "The Ballad of Jane Doe",
-      "tab": "musical",
+      "tab": "other",
       "total": 5,
       "by_month": {
         "2026-05": 5
@@ -12235,7 +12236,7 @@
     {
       "artist": "Come From Away cast",
       "song": "Come From Away",
-      "tab": "musical",
+      "tab": "other",
       "total": 4,
       "by_month": {
         "2025-10": 4
@@ -12662,7 +12663,7 @@
     {
       "artist": "Jeremy Jordan, Jarrod Spector",
       "song": "The Way it Ends",
-      "tab": "musical",
+      "tab": "other",
       "total": 4,
       "by_month": {
         "2026-02": 4
@@ -13547,7 +13548,7 @@
     {
       "artist": "Sweeney Todd cast",
       "song": "Sweeney Todd the Demon Barber of Fleet Street",
-      "tab": "musical",
+      "tab": "other",
       "total": 4,
       "by_month": {
         "2026-06": 4
@@ -14233,7 +14234,7 @@
     {
       "artist": "The Prince of Egypt Cast",
       "song": "The Prince of Egypt",
-      "tab": "musical",
+      "tab": "other",
       "total": 3,
       "by_month": {
         "2025-10": 3
@@ -14247,7 +14248,7 @@
     {
       "artist": "Next to Normal Cast",
       "song": "Next to Normal",
-      "tab": "musical",
+      "tab": "other",
       "total": 3,
       "by_month": {
         "2025-10": 3
@@ -14816,7 +14817,7 @@
     {
       "artist": "Little Shop of Horrors",
       "song": "catalog",
-      "tab": "musical",
+      "tab": "other",
       "total": 3,
       "by_month": {
         "2026-02": 3
@@ -15292,7 +15293,7 @@
     {
       "artist": "Emily Rohm",
       "song": "Ballad of Jane Doe",
-      "tab": "musical",
+      "tab": "other",
       "total": 3,
       "by_month": {
         "2026-05": 3
@@ -15756,7 +15757,7 @@
     {
       "artist": "Repo! The Genetic Opera",
       "song": "catalog",
-      "tab": "musical",
+      "tab": "other",
       "total": 3,
       "by_month": {
         "2026-06": 3
@@ -16038,7 +16039,7 @@
     {
       "artist": "Jeremy Jordan",
       "song": "catalog",
-      "tab": "musical",
+      "tab": "other",
       "total": 2,
       "by_month": {
         "2025-10": 2
@@ -16432,7 +16433,7 @@
     {
       "artist": "Hadestown Cast",
       "song": "Hadestown",
-      "tab": "musical",
+      "tab": "other",
       "total": 2,
       "by_month": {
         "2026-01": 2
@@ -18216,7 +18217,7 @@
     {
       "artist": "The Prince of Egypt Cast",
       "song": "Dance to the Day",
-      "tab": "musical",
+      "tab": "other",
       "total": 1,
       "by_month": {
         "2025-12": 1
@@ -20473,7 +20474,7 @@
     {
       "artist": "Jeremy Jordan",
       "song": "Where is the Justice?",
-      "tab": "musical",
+      "tab": "other",
       "total": 0,
       "by_month": {
         "2026-03": 0
@@ -20585,7 +20586,7 @@
     {
       "artist": "Next to Normal Cast",
       "song": "I'm Alive",
-      "tab": "musical",
+      "tab": "other",
       "total": 0,
       "by_month": {
         "2026-04": 0
@@ -21019,4301 +21020,1525 @@
   ],
   "current_month_rows": [
     {
-      "artist": "Stray Kids",
-      "song": "Item/Topline Recording scenes",
-      "tab": "skz",
-      "hearts": 27,
+      "artist": "EXO",
+      "song": "catalog",
+      "tab": "morekpop",
+      "hearts": 45,
       "requesters": [
-        "Binnie"
+        "omuri",
+        "Kristine"
       ],
-      "url": "https://youtu.be/9odkgNeDJm4?is=zKle468beJJ5TkrG",
-      "done_date": null
-    },
-    {
-      "artist": "Han",
-      "song": "Back To Life",
-      "tab": "skz",
-      "hearts": 26,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/F0UIsSnotlA?si=rZkFmZb0MY1yFtx-G",
-      "done_date": null
-    },
-    {
-      "artist": "Han",
-      "song": "Deep dive",
-      "tab": "skz",
-      "hearts": 25,
-      "requesters": [
-        "Kathy"
-      ],
-      "url": "https://youtube.com/playlist?list=PLIBiMdSyh8nVGIh--2pVQkQ6wR7xThGP_&si=s7BRVswbbh8Kg3ot",
-      "done_date": null
-    },
-    {
-      "artist": "Hoshimachi Suisei",
-      "song": "Still Still Stellar",
-      "tab": "vtuber",
-      "hearts": 24,
-      "requesters": [
-        "Andrew",
-        "JdonMyPatreon"
-      ],
-      "url": "https://youtube.com/playlist?list=PLBO2h-GzDvIaCSm5_ZHdqLlDBXJT0VVZW&si=KEqqGKd19Gb9bpnX",
+      "url": "https://youtu.be/zomvO2Ii-kA?si=NADdWxvwk-hrg6R_",
       "done_date": null
     },
     {
       "artist": "Stray Kids",
-      "song": "Survival show",
+      "song": "catalog",
       "tab": "skz",
-      "hearts": 23,
+      "hearts": 15,
       "requesters": [
-        "Binnie"
+        "Jsg2140"
       ],
       "url": null,
       "done_date": null
     },
     {
-      "artist": "Stray Kids",
-      "song": "MAMA 2025 Performance",
-      "tab": "skz",
-      "hearts": 22,
-      "requesters": [
-        "Jona"
-      ],
-      "url": "https://youtu.be/zRYTFhPxiyA?si=7eOFsuoPWy8HjCLB",
-      "done_date": null
-    },
-    {
-      "artist": "Nanashi Mumei",
-      "song": "Mumei",
-      "tab": "vtuber",
-      "hearts": 21,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/oA0CpI0vCK4?si=iCFZlzzze9ypRrmL",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Domino",
-      "tab": "skz",
-      "hearts": 21,
+      "artist": "AnnenMayKantereit",
+      "song": "catalog",
+      "tab": "euro",
+      "hearts": 15,
       "requesters": [
         "Abby"
       ],
-      "url": "https://youtu.be/fOYgl9UrMpM?is=kFbiiERfFXgdTR_F",
-      "done_date": null
-    },
-    {
-      "artist": "Toby Fox",
-      "song": "Undertale OST",
-      "tab": "game",
-      "hearts": 20,
-      "requesters": [
-        "Neeko"
-      ],
-      "url": "https://www.youtube.com/playlist?list=PLKXdyINOQYsb38jn5HGiF6w8X3rph4IIx",
+      "url": "https://youtu.be/DraA3PUuoQc?si=2UEDrP0pJj57bNUb",
       "done_date": null
     },
     {
       "artist": "Stray Kids",
-      "song": "Twilight",
+      "song": "God's Menu / Maniac / Thunderous / S-Class / Bleep",
       "tab": "skz",
-      "hearts": 20,
+      "hearts": 13,
       "requesters": [
         "Abby"
       ],
-      "url": "https://youtu.be/kpk67FHLo2g?is=HQyf-kIT8MlplCqK",
-      "done_date": null
-    },
-    {
-      "artist": "Tsunomaki Watame",
-      "song": "My song",
-      "tab": "vtuber",
-      "hearts": 19,
-      "requesters": [
-        "MVJ"
-      ],
-      "url": "https://youtu.be/6VGkeUaX-zk?si=WfgVvSxv6rduanZ9",
-      "done_date": null
-    },
-    {
-      "artist": "Gigi Murin",
-      "song": "I'll Still Be Here",
-      "tab": "vtuber",
-      "hearts": 19,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/EvdDIJ2ojDM?si=QbZgU2RT60m9k_3y",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Hall of fame",
-      "tab": "skz",
-      "hearts": 19,
-      "requesters": [
-        "Bb"
-      ],
-      "url": "https://youtu.be/8o-uw7q5f34?is=gy0PaqXh2aPNIYyH",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Item",
-      "tab": "skz",
-      "hearts": 19,
-      "requesters": [
-        "Libby"
-      ],
-      "url": "https://youtu.be/anaf-2tiOsA?is=HBGOr3lvBjVDzCkJ",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "3rd Eye",
-      "tab": "skz",
-      "hearts": 18,
-      "requesters": [
-        "Binnie"
-      ],
-      "url": "https://youtu.be/XkpaC7kbJXA?is=2JU7TKO3VkCQVKZ3",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Sclass Recording scenes",
-      "tab": "skz",
-      "hearts": 18,
-      "requesters": [
-        "Berry"
-      ],
-      "url": "https://youtu.be/8_Nt-jnXGfQ?is=gAptoDet7S3ql-jJ",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Comflex",
-      "tab": "skz",
-      "hearts": 17,
-      "requesters": [
-        "Bb"
-      ],
-      "url": "https://youtu.be/f8UdWL39Hk8?is=5BoHh0OlfL5Lv8Et",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Heyday",
-      "tab": "skz",
-      "hearts": 17,
-      "requesters": [
-        "Theresa"
-      ],
-      "url": "https://youtu.be/pjM_yb_K07I?is=B6pRo975U9bxUoa9",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "District 9",
-      "tab": "skz",
-      "hearts": 17,
-      "requesters": [
-        "Theresa"
-      ],
-      "url": "https://youtu.be/u6unJQownW4?is=-AzazGtj6kjh4hpt",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Secret Secret",
-      "tab": "skz",
-      "hearts": 17,
-      "requesters": [
-        "Savallion"
-      ],
-      "url": "https://youtu.be/epW851fZd3I?si=OwjfbRtDaOZ2H3dd",
-      "done_date": null
-    },
-    {
-      "artist": "Sofia Isella",
-      "song": "The Doll People",
-      "tab": "rock",
-      "hearts": 16,
-      "requesters": [
-        "Libby"
-      ],
-      "url": "https://youtu.be/PD-uRFa2qkE?is=zqhQUdIwlHZ5UEeu",
-      "done_date": null
-    },
-    {
-      "artist": "Persona 5",
-      "song": "Life Will Change",
-      "tab": "game",
-      "hearts": 16,
-      "requesters": [
-        "Bossjoe"
-      ],
-      "url": "https://www.youtube.com/watch?v=CGwH6rZk7VM",
-      "done_date": null
-    },
-    {
-      "artist": "Omaru Polka",
-      "song": "Po",
-      "tab": "vtuber",
-      "hearts": 16,
-      "requesters": [
-        "Andrew",
-        "Thomas Bebe"
-      ],
-      "url": "https://youtu.be/0YxsfvcWZu0?si=3HZ55u1eeeNAF5rU",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "Empty Box",
-      "tab": "ateez",
-      "hearts": 16,
-      "requesters": [
-        "poshpenny"
-      ],
-      "url": "https://youtu.be/sC1aKU1Bqz8?si=uNLHuUSRHyV4PY5d",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Topline",
-      "tab": "skz",
-      "hearts": 16,
-      "requesters": [
-        "Sophie"
-      ],
-      "url": "https://youtu.be/b3GYcA7j5mg?is=SWxHQHj_vXPWcPW6",
-      "done_date": null
-    },
-    {
-      "artist": "XLOV",
-      "song": "Serve",
-      "tab": "morekpop",
-      "hearts": 16,
-      "requesters": [
-        "Ellie",
-        "claude",
-        "Moxxy"
-      ],
-      "url": "https://youtu.be/1IzZezTfwE0?is=C4ZDnjoj4CZ-z-nG",
-      "done_date": null
-    },
-    {
-      "artist": "Nerissa Ravencroft",
-      "song": "Down By The River",
-      "tab": "vtuber",
-      "hearts": 15,
-      "requesters": [
-        "Andrew",
-        "Calibur66"
-      ],
-      "url": "https://youtu.be/8j3wK1DXhrs?si=r6Rgr9Ibmt64Rwyt",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Freeze",
-      "tab": "skz",
-      "hearts": 15,
-      "requesters": [
-        "Lisa"
-      ],
-      "url": "https://youtu.be/etjQd0wgUTo?is=vHfoswrEw2Nth2Xq",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Kingdom behind the scenes",
-      "tab": "skz",
-      "hearts": 15,
-      "requesters": [
-        "Berry"
-      ],
-      "url": "https://youtube.com/playlist?list=PLtFPYOZOw-tYWc652owhDGjsYpVF2u2aX&si=VZF1Xd4HsCnNIp91",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Victory Song",
-      "tab": "skz",
-      "hearts": 15,
-      "requesters": [
-        "Berry"
-      ],
-      "url": "https://youtu.be/Fy3zu0WsTLM?is=ViDfWb4QFSZP6wa-",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "La La La",
-      "tab": "skz",
-      "hearts": 15,
-      "requesters": [
-        "Ezee"
-      ],
-      "url": "https://youtu.be/dBDkYofMUs4?is=wKcvCx3QVlynEOsq",
-      "done_date": null
-    },
-    {
-      "artist": "Starlight Daryl",
-      "song": "Starlight Fantasia",
-      "tab": "vtuber",
-      "hearts": 14,
-      "requesters": [
-        "Caleb Martin"
-      ],
-      "url": "https://youtube.com/playlist?list=PLWED0EFPgZVRq53vidkiZr5QLih9UAIe3&si=COzzfeD2_wEBnHOO",
-      "done_date": null
-    },
-    {
-      "artist": "Unnamed",
-      "song": "Godish",
-      "tab": "vtuber",
-      "hearts": 14,
-      "requesters": [
-        "Barmp"
-      ],
-      "url": "https://www.youtube.com/watch?v=hzvlZF3GZ3c",
-      "done_date": null
-    },
-    {
-      "artist": "Aimer",
-      "song": "Brave Shine",
-      "tab": "anime",
-      "hearts": 14,
-      "requesters": [
-        "Caleb Martin"
-      ],
-      "url": "https://youtu.be/XeI8E20ZUE4?si=5ymFO9sEwdyCKwpo",
-      "done_date": null
-    },
-    {
-      "artist": "Tokoyami Towa",
-      "song": "Mumei",
-      "tab": "vtuber",
-      "hearts": 14,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/msqnELT59Nk?si=s3cAzD5qd9j_6KiC",
-      "done_date": null
-    },
-    {
-      "artist": "Yoko Shimomura",
-      "song": "Simple and Clean",
-      "tab": "game",
-      "hearts": 14,
-      "requesters": [
-        "Bossjoe"
-      ],
-      "url": "https://youtu.be/N0vhw4dfMRg",
-      "done_date": null
-    },
-    {
-      "artist": "Cecilia Immergreen",
-      "song": "Wind-Up",
-      "tab": "vtuber",
-      "hearts": 14,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/Kqh6-vjars8?si=PkI1CeKhlBKRqhZa",
-      "done_date": null
-    },
-    {
-      "artist": "Changbin",
-      "song": "Doodle",
-      "tab": "skz",
-      "hearts": 14,
-      "requesters": [
-        "Bb"
-      ],
-      "url": "https://youtu.be/Q-1OLjqWr2g?is=aYBQOxq6oM0jVxV6",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "TMI",
-      "tab": "skz",
-      "hearts": 14,
-      "requesters": [
-        "Libby"
-      ],
-      "url": "https://youtu.be/YwgC2Q9gS7w?is=h_-q7CJHQnrBUG7b",
-      "done_date": null
-    },
-    {
-      "artist": "Hyunjin",
-      "song": "Dance Covers",
-      "tab": "skz",
-      "hearts": 14,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtube.com/playlist?list=PLmWyN_EbtX4IKO1ogmkSWiDgemu27SZZG&si=BFoevTlUgn-BrJhP",
-      "done_date": null
-    },
-    {
-      "artist": "I.N",
-      "song": "Lee Mujin Service",
-      "tab": "skz",
-      "hearts": 14,
-      "requesters": [
-        "Lisa"
-      ],
-      "url": "https://youtu.be/hQrlBne5PI8?is=SitzxCJIBPOE9iE",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Want So Bad",
-      "tab": "skz",
-      "hearts": 14,
-      "requesters": [
-        "Savallion"
-      ],
-      "url": "https://youtu.be/dfymWExIXfI?si=ILTQxPqVxnPZilZf",
-      "done_date": null
-    },
-    {
-      "artist": "Jongho",
-      "song": "Wildflower",
-      "tab": "ateez",
-      "hearts": 14,
-      "requesters": [
-        "poshpenny",
-        "Kammy Kay"
-      ],
-      "url": "https://youtu.be/4RQm4MJhcC4?si=Pl1UzNsvwNGnQ59w",
-      "done_date": null
-    },
-    {
-      "artist": "Yu",
-      "song": "Werde ich gesund",
-      "tab": "euro",
-      "hearts": 13,
-      "requesters": [
-        "Sophie"
-      ],
-      "url": "https://youtube.com/playlist?list=PLzf1b-jUo-bJWV8l3G20ZoQZ51qrqhYzZ&si=sT-NA16jo_QaWRbd",
-      "done_date": null
-    },
-    {
-      "artist": "Berq x Paula Hartmann",
-      "song": "Zahl mir Deinen Schmerz heim",
-      "tab": "euro",
-      "hearts": 13,
-      "requesters": [
-        "Sophie"
-      ],
-      "url": "https://youtu.be/0r4W_DpbtEI?is=jM4FrcbxEBTqAxhA",
-      "done_date": null
-    },
-    {
-      "artist": "Moona Hashinova",
-      "song": "Distortion",
-      "tab": "vtuber",
-      "hearts": 13,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/m-EWIsKurhg?si=6f6-i1or3rFwdCek",
-      "done_date": null
-    },
-    {
-      "artist": "Lisa",
-      "song": "Gurenge",
-      "tab": "anime",
-      "hearts": 13,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/MpYy6wwqxoo?si=WD8X-YoLMepUbOZe",
-      "done_date": null
-    },
-    {
-      "artist": "9lana",
-      "song": "Balalaika",
-      "tab": "jpop",
-      "hearts": 13,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/S2Xu6_XWy4M",
-      "done_date": null
-    },
-    {
-      "artist": "Nerissa Ravencroft, Amalee",
-      "song": "Blink gone",
-      "tab": "vtuber",
-      "hearts": 13,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/-ebTaNe9aiU",
-      "done_date": null
-    },
-    {
-      "artist": "Mafumafu",
-      "song": "Hated by life itself",
-      "tab": "jpop",
-      "hearts": 13,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=eq8r1ZTma08",
-      "done_date": null
-    },
-    {
-      "artist": "Seungmin and I.N",
-      "song": "Song by Cover",
-      "tab": "skz",
-      "hearts": 13,
-      "requesters": [
-        "Sophie"
-      ],
-      "url": "https://youtu.be/nvbaPI5MfUo?is=YP-_qN5wExdxhhr7",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Thunderous",
-      "tab": "skz",
-      "hearts": 13,
-      "requesters": [
-        "Theresa"
-      ],
-      "url": "https://youtu.be/OLODEbb_Ze8?is=1Hu7cZyM-TK9FnXO",
-      "done_date": "2026-02-01"
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Chk Chk Boom",
-      "tab": "skz",
-      "hearts": 13,
-      "requesters": [
-        "Theresa"
-      ],
-      "url": "https://youtu.be/2rYBB2IjNaw?is=VuyqShSmULaHoZ9",
-      "done_date": "2025-11-05"
-    },
-    {
-      "artist": "BTOB",
-      "song": "Higher",
-      "tab": "morekpop",
-      "hearts": 13,
-      "requesters": [
-        "Cindy"
-      ],
-      "url": "https://www.youtube.com/watch?v=wit-OMpO2ew",
-      "done_date": null
-    },
-    {
-      "artist": "Berq",
-      "song": "15min live Session",
-      "tab": "euro",
-      "hearts": 12,
-      "requesters": [
-        "Sophie"
-      ],
-      "url": "https://youtu.be/oSBZzJWs6kU?is=vQv0y6ll8MupdaEz",
-      "done_date": null
-    },
-    {
-      "artist": "Blumengarten & Paula Hartmann",
-      "song": "paris syndrom",
-      "tab": "euro",
-      "hearts": 12,
-      "requesters": [
-        "Sophie"
-      ],
-      "url": "https://youtu.be/Ht45DXoJyyc?is=pJ6fgL46jrCTvDyZ",
-      "done_date": null
-    },
-    {
-      "artist": "Tokoyami Towa",
-      "song": "Error",
-      "tab": "vtuber",
-      "hearts": 12,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/PMhFUYOQnKE?si=Z72YS1B5_5TeUozh",
-      "done_date": null
-    },
-    {
-      "artist": "Casey Edwards",
-      "song": "Bury the Light",
-      "tab": "game",
-      "hearts": 12,
-      "requesters": [
-        "Bossjoe"
-      ],
-      "url": "https://youtu.be/pvy9km7g6fw",
-      "done_date": null
-    },
-    {
-      "artist": "KikuoHana",
-      "song": "O Light",
-      "tab": "jpop",
-      "hearts": 12,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=AxhZgT_Hx2I",
-      "done_date": null
-    },
-    {
-      "artist": "Okabe Keiichi",
-      "song": "catalog",
-      "tab": "game",
-      "hearts": 12,
-      "requesters": [
-        "Mikko Forest"
-      ],
       "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Bocchi the Rock",
-      "song": "catalog",
-      "tab": "anime",
-      "hearts": 12,
-      "requesters": [
-        "Barmp"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "On The Road",
-      "tab": "ateez",
-      "hearts": 12,
-      "requesters": [
-        "Knightly"
-      ],
-      "url": "https://youtu.be/ue8xg0gqVY8?si=xZLT9u4Wbv8wH3rU",
-      "done_date": null
-    },
-    {
-      "artist": "Ironmouse x Michi Mochievee",
-      "song": "Daidaidaidaidaikirai",
-      "tab": "vtuber",
-      "hearts": 11,
-      "requesters": [
-        "Barmp"
-      ],
-      "url": "https://youtu.be/gFmrDB-99fU",
-      "done_date": null
-    },
-    {
-      "artist": "Mili",
-      "song": "world.execute (me)",
-      "tab": "jpop",
-      "hearts": 11,
-      "requesters": [
-        "Caleb Martin"
-      ],
-      "url": "https://youtu.be/ESx_hy1n7HA?si=btt8SPcWzLqNkdks",
-      "done_date": null
-    },
-    {
-      "artist": "Baka Mitai",
-      "song": "Baka Mitai",
-      "tab": "game",
-      "hearts": 11,
-      "requesters": [
-        "Bossjoe"
-      ],
-      "url": "https://www.youtube.com/watch?v=NolF1yCK33c",
-      "done_date": null
-    },
-    {
-      "artist": "ufotable",
-      "song": "Fate/Zero and Fate/Stay Night",
-      "tab": "anime",
-      "hearts": 11,
-      "requesters": [
-        "Caleb Martin"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Ayunda Risu",
-      "song": "Deep Dive playlist",
-      "tab": "vtuber",
-      "hearts": 11,
-      "requesters": [
-        "JdonMyPatreon"
-      ],
-      "url": "https://youtube.com/playlist?list=PL5oHh6rK4bse_wlPdxjK62MGPK4_JXht5&si=qm6o39dgn26SgzJg",
-      "done_date": null
-    },
-    {
-      "artist": "The Seatbelts",
-      "song": "Real Folk Blues",
-      "tab": "anime",
-      "hearts": 11,
-      "requesters": [
-        "Mukansa Monkey"
-      ],
-      "url": "https://www.youtube.com/watch?v=Ru_H5PiyfSA",
-      "done_date": null
-    },
-    {
-      "artist": "Lee Changsub",
-      "song": "Lee Mujin Service",
-      "tab": "morekpop",
-      "hearts": 11,
-      "requesters": [
-        "Cindy"
-      ],
-      "url": "https://www.youtube.com/watch?v=BftEM5H4zxw",
-      "done_date": null
-    },
-    {
-      "artist": "Seonghwa",
-      "song": "Skin",
-      "tab": "ateez",
-      "hearts": 11,
-      "requesters": [
-        "Avalonian"
-      ],
-      "url": "https://youtu.be/XP7zqLMu-mM?si=Z5_SaZaYJGbzlEB8",
-      "done_date": null
-    },
-    {
-      "artist": "Hongjoong",
-      "song": "Lee Mujin Service",
-      "tab": "ateez",
-      "hearts": 11,
-      "requesters": [
-        "poshpenny"
-      ],
-      "url": "https://youtu.be/8Egm9zI_pS8?si=j7C_BIahxipZpDLI",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Sclass",
-      "tab": "skz",
-      "hearts": 11,
-      "requesters": [
-        "Ezee"
-      ],
-      "url": "https://youtu.be/Dd6Jxk5Kgws?is=WdulwGHxV-1nMB3e",
       "done_date": "2026-05-14"
     },
     {
-      "artist": "San",
-      "song": "Lee Mujin Service",
-      "tab": "ateez",
-      "hearts": 11,
-      "requesters": [
-        "Kammy Kay"
-      ],
-      "url": "https://youtu.be/immmh3o4ijI?si=rV9QVKLS_TVoVuSL",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Lee Mujin Service",
-      "tab": "skz",
-      "hearts": 11,
-      "requesters": [
-        "Kagari"
-      ],
-      "url": "https://youtube.com/playlist?list=PL3ZmZaurttDQQ_4pWeluupT12FWgfs4js&si=w15dGJkebfkViYpU",
-      "done_date": null
-    },
-    {
-      "artist": "Seungmin",
-      "song": "Into the current",
-      "tab": "skz",
-      "hearts": 11,
-      "requesters": [
-        "Kagari"
-      ],
-      "url": "https://youtu.be/sw1YLrdaUnA?si=o03LgIffgTd30NtK",
-      "done_date": null
-    },
-    {
-      "artist": "Seungmin",
-      "song": "Lee Mujin Service",
-      "tab": "skz",
-      "hearts": 11,
-      "requesters": [
-        "Deedy"
-      ],
-      "url": "https://youtu.be/WoKA_Zt0STQ?si=QSTyQbueERzC8R_F",
-      "done_date": null
-    },
-    {
-      "artist": "Stray Kids",
-      "song": "Because",
-      "tab": "skz",
-      "hearts": 11,
-      "requesters": [
-        "Deedy"
-      ],
-      "url": "https://youtu.be/U7d5NK0K1fY?si=uuZXdaJk3V-KaiVM",
-      "done_date": null
-    },
-    {
-      "artist": "Jurard T Rexford",
-      "song": "ジェニ (JENNY)",
-      "tab": "vtuber",
-      "hearts": 10,
-      "requesters": [
-        "Barmp"
-      ],
-      "url": "https://www.youtube.com/watch?v=uo8KqPqKsqI",
-      "done_date": null
-    },
-    {
-      "artist": "Minami",
-      "song": "Waiting for Rain",
-      "tab": "jpop",
-      "hearts": 10,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://youtu.be/766qmHTc2ro?si=JAGoDLemn9FKa0Rc",
-      "done_date": null
-    },
-    {
-      "artist": "r-906",
-      "song": "Saji no Majinai / A Spoonful of SPELL",
-      "tab": "jpop",
-      "hearts": 10,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=B6vKLsh09Qw",
-      "done_date": null
-    },
-    {
-      "artist": "Queen",
-      "song": "Highlander Soundtrack",
-      "tab": "musical",
-      "hearts": 10,
-      "requesters": [
-        "Barmp"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "kikuohana",
-      "song": "desert theater",
-      "tab": "jpop",
-      "hearts": 10,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/M9lF9Z7cSS8",
-      "done_date": null
-    },
-    {
-      "artist": "Densetu.exe",
-      "song": "Burn on! Hot-Blooded Heroine",
-      "tab": "vtuber",
-      "hearts": 10,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/6fLrU1tua6w",
-      "done_date": null
-    },
-    {
-      "artist": "Nerissa Ravencroft",
-      "song": "BIRDBRAIN",
-      "tab": "vtuber",
-      "hearts": 10,
-      "requesters": [
-        "MVJ"
-      ],
-      "url": "https://youtu.be/XdNd0IwiGEo?si=EyMCxaQV7w7l0Mvp",
-      "done_date": null
-    },
-    {
-      "artist": "Susan Calloway",
-      "song": "Answers",
-      "tab": "game",
-      "hearts": 10,
-      "requesters": [
-        "Ciel"
-      ],
-      "url": "https://www.youtube.com/watch?v=h542YbZuwkQ",
-      "done_date": null
-    },
-    {
-      "artist": "Taeyang",
-      "song": "Eyes, nose, lips",
+      "artist": "K/DA",
+      "song": "POP/STARS",
       "tab": "morekpop",
-      "hearts": 10,
+      "hearts": 13,
       "requesters": [
-        "Ashley"
+        "Kyra"
       ],
-      "url": "https://youtu.be/UwuAPyOImoI?si=JuFIBAvJT0FQck5C",
-      "done_date": null
-    },
-    {
-      "artist": "PSY",
-      "song": "That That",
-      "tab": "morekpop",
-      "hearts": 10,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/8dJyRm2jJ-U?si=ju5ei8Tv-6VeItGN",
-      "done_date": null
-    },
-    {
-      "artist": "Agust D",
-      "song": "Amygdala",
-      "tab": "bts",
-      "hearts": 10,
-      "requesters": [
-        "Ashley"
-      ],
-      "url": "https://youtu.be/IX1dkYoLHVs?si=GtzmXRK-OQOvMiM5",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "Dear Name",
-      "tab": "ateez",
-      "hearts": 10,
-      "requesters": [
-        "Kammy Kay"
-      ],
-      "url": "https://youtu.be/jCWlqmwZRrM?si=Ul5IZmXtHWph2g3q",
-      "done_date": null
-    },
-    {
-      "artist": "BTOB",
-      "song": "Finale",
-      "tab": "morekpop",
-      "hearts": 10,
-      "requesters": [
-        "Cindy"
-      ],
-      "url": "https://www.youtube.com/watch?v=6MFQS0X4wqM",
+      "url": "https://youtu.be/UOxkGD8qRB4",
       "done_date": null
     },
     {
       "artist": "Bang Chan",
-      "song": "I hate to admit",
+      "song": "Railway",
       "tab": "skz",
-      "hearts": 10,
+      "hearts": 13,
       "requesters": [
-        "Kagari"
+        "Savallion"
       ],
-      "url": "https://youtu.be/ZFNG_5DL-FU?si=2ssk1UfGaYaXdjWq",
+      "url": "https://youtu.be/27rdSyt-Qt8?si=WldId3AlkIVnmDXs",
+      "done_date": "2026-05-08"
+    },
+    {
+      "artist": "Jongho / Eunkwang / Seungmin",
+      "song": "Love Poem",
+      "tab": "morekpop",
+      "hearts": 13,
+      "requesters": [
+        "Sophie"
+      ],
+      "url": "https://youtu.be/5Rl67uU_oJs?si=fOOVcg-I9LsLxBmJ",
       "done_date": null
     },
     {
       "artist": "Stray Kids",
-      "song": "King of Masked Singer",
+      "song": "ESCAPE",
       "tab": "skz",
-      "hearts": 10,
+      "hearts": 12,
       "requesters": [
-        "Kagari"
+        "Savallion"
       ],
-      "url": "https://youtu.be/ZKCjUjfeeBc?si=OeG0IPIMT1LjkWXA",
-      "done_date": null
+      "url": "https://www.youtube.com/watch?v=LvCmsOWPwKA",
+      "done_date": "2026-02-08"
     },
     {
-      "artist": "Gorillaz",
-      "song": "animated trilogy",
-      "tab": "other",
+      "artist": "Stray Kids",
+      "song": "Maniac",
+      "tab": "skz",
+      "hearts": 12,
+      "requesters": [
+        "Bb"
+      ],
+      "url": "https://youtu.be/OvioeS1ZZ7o?si=je3VrbDaXW_JnBDq",
+      "done_date": "2025-10-20"
+    },
+    {
+      "artist": "Cast Recording",
+      "song": "Ballad of Jane Doe",
+      "tab": "musical",
       "hearts": 9,
       "requesters": [
-        "CervenySun"
+        "cashette"
       ],
-      "url": "https://youtu.be/ucRulNQsuYQ?si=pkZahL1RqXrzqkxx",
+      "url": "https://youtu.be/HXbRfQAHfdg?si=goDp-vhlNzSDp1J1",
       "done_date": null
     },
     {
-      "artist": "Bao the Whale and Neurosama",
-      "song": "Mesmerizer",
-      "tab": "vtuber",
+      "artist": "BTS",
+      "song": "Your Eyes Tell",
+      "tab": "bts",
       "hearts": 9,
       "requesters": [
-        "Caleb Martin"
+        "Kim.Sunny117",
+        "Kristine"
       ],
-      "url": "https://youtu.be/qhmeWiZg3cA?si=dRxCoy0jR45SXUvw",
+      "url": "https://youtu.be/YAXDiCL5v1c?si=oXw_qZFawLsyOB0G",
       "done_date": null
     },
     {
-      "artist": "Giga",
-      "song": "PLAY ft. Miku",
-      "tab": "jpop",
-      "hearts": 9,
+      "artist": "Agust D",
+      "song": "Daechwita",
+      "tab": "bts",
+      "hearts": 8,
       "requesters": [
-        "Peterson"
+        "blkrose_22"
       ],
-      "url": "https://youtube.com/watch?v=6JEdJWwcIyk",
-      "done_date": null
+      "url": "https://youtu.be/qGjAWJ2zWWI?si=FODzhMgRUShnDQVE",
+      "done_date": "2026-05-29"
     },
     {
-      "artist": "Akuma Nihmune",
-      "song": "plants",
-      "tab": "vtuber",
-      "hearts": 9,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/GYLi2z50Qg8",
-      "done_date": null
-    },
-    {
-      "artist": "OBKATIEKAT",
-      "song": "break",
-      "tab": "vtuber",
-      "hearts": 9,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/GAHxVJCtzhE",
-      "done_date": null
-    },
-    {
-      "artist": "Katamari Damacy",
-      "song": "Katamari on the Rocks",
-      "tab": "game",
-      "hearts": 9,
-      "requesters": [
-        "Bossjoe"
-      ],
-      "url": "https://www.youtube.com/watch?v=iMH49ieL4es",
-      "done_date": null
-    },
-    {
-      "artist": "Silksong",
-      "song": "Lace",
-      "tab": "game",
-      "hearts": 9,
-      "requesters": [
-        "Caleb Martin"
-      ],
-      "url": "https://youtu.be/WqxTMe0P6Kw?si=wj9e-bJEzZXLtbxM",
-      "done_date": null
-    },
-    {
-      "artist": "Akuma Nihmune",
-      "song": "Natalie Radio",
-      "tab": "vtuber",
-      "hearts": 9,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/WzlFYTAsF4U",
-      "done_date": null
-    },
-    {
-      "artist": "Aki Rosenthal",
-      "song": "SHALLYS",
-      "tab": "vtuber",
-      "hearts": 9,
-      "requesters": [
-        "Peach"
-      ],
-      "url": "https://youtu.be/Ii7rtNaGlls",
-      "done_date": null
-    },
-    {
-      "artist": "Tuki",
-      "song": "Saitai Kaiwai",
-      "tab": "jpop",
-      "hearts": 9,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/Ej5sYrSf0Ns",
-      "done_date": null
-    },
-    {
-      "artist": "Kobo Kanaeru",
-      "song": "Fond Memories",
-      "tab": "vtuber",
-      "hearts": 9,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/F1PRA4IBP8c?si=9jQxYJjeUIXM8mCO",
-      "done_date": null
-    },
-    {
-      "artist": "KikuoHana",
-      "song": "Daughter of Misfortune",
-      "tab": "jpop",
-      "hearts": 9,
-      "requesters": [
-        "H. E."
-      ],
-      "url": "https://youtu.be/yj1jC0AmxVA?si=IHkUdfA3_0dcGVDW",
-      "done_date": null
-    },
-    {
-      "artist": "The Seatbelts",
-      "song": "Tank! Extended Version Live",
+      "artist": "Hiroyuki Sawano",
+      "song": "catalog",
       "tab": "anime",
-      "hearts": 9,
+      "hearts": 8,
       "requesters": [
-        "Mukansa Monkey"
+        "Daniel Saenz"
       ],
-      "url": "https://www.youtube.com/watch?v=d75ov4HvRrM",
+      "url": null,
       "done_date": null
     },
     {
-      "artist": "IRyS",
-      "song": "Gravity",
-      "tab": "vtuber",
-      "hearts": 9,
+      "artist": "My Chemical Romance",
+      "song": "The Ghost of You",
+      "tab": "rock",
+      "hearts": 8,
       "requesters": [
-        "Crimsonharo"
+        "tai"
       ],
-      "url": "https://www.youtube.com/watch?v=fevB6h3-kfE",
-      "done_date": null
+      "url": "https://youtu.be/uCUpvTMis-Y?si=iksk6o2NKG7iWs9W",
+      "done_date": "2025-10-21"
     },
     {
-      "artist": "ATEEZ",
-      "song": "Highway in the Gale",
-      "tab": "ateez",
-      "hearts": 9,
-      "requesters": [
-        "poshpenny"
-      ],
-      "url": "https://www.youtube.com/watch?v=hU2jYMxE-NU",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "The Seasons S8 EP.21",
-      "tab": "ateez",
-      "hearts": 9,
-      "requesters": [
-        "poshpenny"
-      ],
-      "url": "https://youtu.be/kY-XsLnKmv8?si=VQQbABabQKGxNvI0",
-      "done_date": null
-    },
-    {
-      "artist": "SHINee",
-      "song": "Sherlock",
+      "artist": "TXT",
+      "song": "Run Away",
       "tab": "morekpop",
-      "hearts": 9,
+      "hearts": 8,
+      "requesters": [
+        "Bennett"
+      ],
+      "url": "https://youtu.be/6yWPfUz0z94?si=Ny1qRP_JbWPhRzOz",
+      "done_date": "2025-11-10"
+    },
+    {
+      "artist": "Mamamoo",
+      "song": "Where Are We Now?",
+      "tab": "morekpop",
+      "hearts": 8,
+      "requesters": [
+        "Zaphne"
+      ],
+      "url": "https://www.youtube.com/watch?v=rIr3Y4zEOoU",
+      "done_date": null
+    },
+    {
+      "artist": "YOASOBI",
+      "song": "Monster",
+      "tab": "jpop",
+      "hearts": 8,
+      "requesters": [
+        "Nite24"
+      ],
+      "url": "https://youtu.be/dy90tA3TT1c?si=i9alFyk1vscrJRpn",
+      "done_date": null
+    },
+    {
+      "artist": "WOODZ",
+      "song": "I'll Never Love Again",
+      "tab": "morekpop",
+      "hearts": 7,
+      "requesters": [
+        "Bennett"
+      ],
+      "url": "https://youtu.be/4V9isfZVjnI?si=sMlqomn2ROaCwrXA",
+      "done_date": "2026-02-22"
+    },
+    {
+      "artist": "Taemin",
+      "song": "Danger",
+      "tab": "morekpop",
+      "hearts": 7,
       "requesters": [
         "Ashley"
       ],
-      "url": "https://youtu.be/N8VRaGe3Cqs?si=jKjzS7UD7CtIZt94",
+      "url": "https://youtu.be/UF8m2JIDjKU?si=Yms-hgu0zSbPG-01",
+      "done_date": "2026-01-31"
+    },
+    {
+      "artist": "Lisa",
+      "song": "Homura",
+      "tab": "anime",
+      "hearts": 7,
+      "requesters": [
+        "Harald Nassau"
+      ],
+      "url": "https://www.youtube.com/watch?v=4Q9DWZLaY2U&list=RD4Q9DWZLaY2U&start_radio=1",
       "done_date": null
     },
     {
-      "artist": "SEVENTEEN",
-      "song": "Our Dawn is Hotter than Day",
+      "artist": "Ninja Sex Party",
+      "song": "Danny Don't You Know",
+      "tab": "other",
+      "hearts": 6,
+      "requesters": [
+        "Jon baxley"
+      ],
+      "url": "https://youtu.be/kT8cX2-_7pQ?si=xi-wEWGSfM97X-23",
+      "done_date": "2026-02-23"
+    },
+    {
+      "artist": "Louder Than Bombs",
+      "song": "Louder Than Bombs",
+      "tab": "other",
+      "hearts": 6,
+      "requesters": [
+        "Kat⁷"
+      ],
+      "url": "https://youtu.be/BVzTBj2O6Dc?si=DMnlCWjdY0-fmm9A",
+      "done_date": null
+    },
+    {
+      "artist": "NMIXX",
+      "song": "High Horse",
       "tab": "morekpop",
-      "hearts": 9,
+      "hearts": 6,
       "requesters": [
-        "Jona"
+        "mm"
       ],
-      "url": null,
+      "url": "https://www.youtube.com/watch?v=H7XqQJeHBPk",
       "done_date": null
     },
     {
-      "artist": "ATEEZ",
-      "song": "Towards the Light: Will to Power concert",
-      "tab": "ateez",
-      "hearts": 9,
+      "artist": "Fall Out Boy",
+      "song": "Heaven's Gate",
+      "tab": "rock",
+      "hearts": 6,
       "requesters": [
-        "Kammy Kay"
+        "iolanthe"
       ],
-      "url": null,
+      "url": "https://youtu.be/Ztos1mhVx78?si=cYI_KL4eAjHKivWU",
       "done_date": null
     },
     {
-      "artist": "YB feat. Seungmin",
-      "song": "Gayo Daejejeon 2025",
-      "tab": "skz",
-      "hearts": 9,
+      "artist": "Red Velvet",
+      "song": "catalog",
+      "tab": "morekpop",
+      "hearts": 6,
       "requesters": [
-        "Kagari"
+        "lee"
       ],
-      "url": "https://youtu.be/0hIjJLWzkVk?si=098c9ZaAUH3KsT5x",
+      "url": "https://youtu.be/KEFNlx4ZIOU?si=YFTYP9Y1nPMVHMOQ",
       "done_date": null
     },
     {
       "artist": "Stray Kids",
-      "song": "Rockstar Recording Scene",
+      "song": "S-Class",
       "tab": "skz",
-      "hearts": 9,
+      "hearts": 6,
       "requesters": [
-        "Deedy"
-      ],
-      "url": "https://youtu.be/0lT_rA5wCmM?si=rEePNz2FB0ztGM2w",
-      "done_date": null
-    },
-    {
-      "artist": "Rachie",
-      "song": "Monitoring",
-      "tab": "vtuber",
-      "hearts": 8,
-      "requesters": [
-        "Barmp"
-      ],
-      "url": "https://www.youtube.com/watch?v=qVyW5iSnrF0",
-      "done_date": null
-    },
-    {
-      "artist": "Minami",
-      "song": "Drop",
-      "tab": "jpop",
-      "hearts": 8,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=WpRcRYoHqxE",
-      "done_date": null
-    },
-    {
-      "artist": "OBKATIEKAT, Zephyrianna, FutakuchiMana",
-      "song": "Kingslayer",
-      "tab": "vtuber",
-      "hearts": 8,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/I3T2xK3QL0U",
-      "done_date": null
-    },
-    {
-      "artist": "Isekaijoucho",
-      "song": "Sirius no Shinzou / The Heart of Sirius",
-      "tab": "vtuber",
-      "hearts": 8,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=UKZt1vq8bKI",
-      "done_date": null
-    },
-    {
-      "artist": "Tuki",
-      "song": "Bansanka",
-      "tab": "jpop",
-      "hearts": 8,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/oZpYEEcvu5I",
-      "done_date": null
-    },
-    {
-      "artist": "Ironmouse",
-      "song": "FFXIV Fan Fest Stage Performance",
-      "tab": "vtuber",
-      "hearts": 8,
-      "requesters": [
-        "Barmp"
+        "Jessica"
       ],
       "url": null,
-      "done_date": null
+      "done_date": "2026-05-14"
     },
     {
-      "artist": "Ado",
-      "song": "Lucky Bruto",
-      "tab": "jpop",
-      "hearts": 8,
-      "requesters": [
-        "H. E."
-      ],
-      "url": "https://www.youtube.com/watch?v=u-G_zzhLSy8",
-      "done_date": null
-    },
-    {
-      "artist": "RIM",
-      "song": "Carnivorous Plant",
-      "tab": "vtuber",
-      "hearts": 8,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=F9eCSWEJYjk",
-      "done_date": null
-    },
-    {
-      "artist": "Bump of Chicken",
-      "song": "Acacia",
-      "tab": "jpop",
-      "hearts": 8,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/Oh57YxEW_jQ",
-      "done_date": null
-    },
-    {
-      "artist": "Babymetal",
-      "song": "Akatsuki",
-      "tab": "jpop",
-      "hearts": 8,
-      "requesters": [
-        "Derwent"
-      ],
-      "url": "https://youtu.be/yGuuQ_45aTU?si=B5HLNwsneU1ECm7j",
-      "done_date": null
-    },
-    {
-      "artist": "Moona Hoshinova",
-      "song": "Who's Toxic? It's You!",
-      "tab": "vtuber",
-      "hearts": 8,
-      "requesters": [
-        "waffling"
-      ],
-      "url": "https://www.youtube.com/watch?v=PFoGNZ05CJw",
-      "done_date": null
-    },
-    {
-      "artist": "Sasakure .UK",
-      "song": "ÅMARA (The Great Intelligence)",
-      "tab": "jpop",
-      "hearts": 8,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=p6snD1650ck",
-      "done_date": null
-    },
-    {
-      "artist": "My Chemical Romance",
-      "song": "Planetary (GO!)",
-      "tab": "rock",
-      "hearts": 8,
-      "requesters": [
-        "Hope Merritt"
-      ],
-      "url": "https://youtu.be/UvfNmXbVHi4?si=rL1IZ40dDuim3Uu3",
-      "done_date": null
-    },
-    {
-      "artist": "My Chemical Romance",
-      "song": "The Black Parade",
-      "tab": "rock",
-      "hearts": 8,
-      "requesters": [
-        "Hope Merritt"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Minami",
-      "song": "Hollowness",
-      "tab": "jpop",
-      "hearts": 8,
-      "requesters": [
-        "Yuto Gami"
-      ],
-      "url": "https://www.youtube.com/watch?v=HIRiduzNLzQ",
-      "done_date": null
-    },
-    {
-      "artist": "The Rose",
-      "song": "Sorry",
-      "tab": "rock",
-      "hearts": 8,
-      "requesters": [
-        "blkrose_22",
-        "KJMx"
-      ],
-      "url": "https://youtu.be/CjNpo3uXkwE?si=2rqZdYLbOVXCnwed",
-      "done_date": null
-    },
-    {
-      "artist": "Hongjoong",
-      "song": "Black or White",
-      "tab": "ateez",
-      "hearts": 8,
-      "requesters": [
-        "poshpenny"
-      ],
-      "url": "https://youtu.be/hMDDhHEd0zE?si=Nie28_xuTWHgvp4K",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "Money",
-      "tab": "ateez",
-      "hearts": 8,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/5b5G8l21sUM?si=A595DNVmwrwJKoDi",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "Tipsy Live on Dingo",
-      "tab": "ateez",
-      "hearts": 8,
-      "requesters": [
-        "Kammy Kay"
-      ],
-      "url": "https://youtu.be/SxPTgpdboiQ?si=kGCTTUrQrO0XCVVD",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "ASEA 2026 performance",
-      "tab": "ateez",
-      "hearts": 8,
-      "requesters": [
-        "Kammy Kay"
-      ],
-      "url": "https://youtu.be/GWuwRSXb-Tw?si=jsFCJjgHXXKhkw70",
-      "done_date": null
-    },
-    {
-      "artist": "San & Jongho",
-      "song": "Dear Name",
-      "tab": "ateez",
-      "hearts": 8,
-      "requesters": [
-        "poshpenny"
-      ],
-      "url": "https://youtu.be/jCWlqmwZRrM?si=YoJOVk3hl_vGr4ej",
-      "done_date": null
-    },
-    {
-      "artist": "iKon",
-      "song": "I'm OK",
+      "artist": "KATSEYE",
+      "song": "catalog",
       "tab": "morekpop",
-      "hearts": 8,
+      "hearts": 6,
       "requesters": [
-        "Torie"
+        "Gablen",
+        "Cherry"
       ],
-      "url": "https://www.youtube.com/watch?v=yqszm7AnX-4&list=PLmyAV2byPRxicWo7eT9XAUwudZTu90OYL&index=100",
+      "url": "https://www.youtube.com/watch?v=BY2EQBZ_ZAA",
       "done_date": null
     },
     {
-      "artist": "The Rose",
-      "song": "WRLD",
-      "tab": "rock",
-      "hearts": 8,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/6ufDVWeunA0?si=sWX_60pH8yc5PPng",
-      "done_date": null
-    },
-    {
-      "artist": "Hyunjin",
-      "song": "Quill Pen",
+      "artist": "Stray Kids",
+      "song": "God's Menu",
       "tab": "skz",
-      "hearts": 8,
+      "hearts": 5,
       "requesters": [
-        "Kagari"
+        "Savallion"
       ],
-      "url": "https://youtu.be/eSRLZfj3X80?si=7lTkLUQq14vPEiCP",
+      "url": "https://www.youtube.com/watch?v=TQTlCHxyuu8",
+      "done_date": "2025-10-09"
+    },
+    {
+      "artist": "Song So Hee",
+      "song": "BTS cover",
+      "tab": "bts",
+      "hearts": 5,
+      "requesters": [
+        "Handsome Hayeon Can't Hurt You"
+      ],
+      "url": "https://youtu.be/ExWa5_Vmsx4?si=LioHzfTw_OQxfZYa",
       "done_date": null
     },
     {
-      "artist": "Various",
-      "song": "Cowboy Bebop",
+      "artist": "BTS",
+      "song": "Kinetic Manifesto",
+      "tab": "bts",
+      "hearts": 5,
+      "requesters": [
+        "Kristine"
+      ],
+      "url": "https://youtu.be/gwMa6gpoE9I?si=CUkFIwtvKWLfAdur",
+      "done_date": null
+    },
+    {
+      "artist": "EXO",
+      "song": "Open Arms",
+      "tab": "morekpop",
+      "hearts": 5,
+      "requesters": [
+        "Kristine"
+      ],
+      "url": "https://youtu.be/JKr9GU9emfg?si=lfxCrnoFUm4PZ5Y5",
+      "done_date": null
+    },
+    {
+      "artist": "Bo Burnham",
+      "song": "Content",
+      "tab": "other",
+      "hearts": 5,
+      "requesters": [
+        "Sage"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Repo! The Genetic Opera cast",
+      "song": "Zydrate Anatomy",
+      "tab": "other",
+      "hearts": 5,
+      "requesters": [
+        "Cassidy McGuire"
+      ],
+      "url": "https://www.youtube.com/watch?v=4w_nIRZBlos",
+      "done_date": null
+    },
+    {
+      "artist": "IU",
+      "song": "Love Wins All",
+      "tab": "morekpop",
+      "hearts": 5,
+      "requesters": [
+        "Al Magne"
+      ],
+      "url": "https://www.youtube.com/watch?v=JleoAppaxi0",
+      "done_date": null
+    },
+    {
+      "artist": "Pierce The Veil",
+      "song": "King for a Day",
+      "tab": "rock",
+      "hearts": 5,
+      "requesters": [
+        "tai"
+      ],
+      "url": "https://youtu.be/icXUkIfZxyg?si=jO8SsqfsIoKS5S7N",
+      "done_date": "2025-10-15"
+    },
+    {
+      "artist": "Pentakill",
+      "song": "catalog",
       "tab": "game",
-      "hearts": 7,
+      "hearts": 4,
       "requesters": [
-        "Tyler S"
+        "Kyra"
       ],
-      "url": "https://youtube.com/@creepy_nuts?si=bJr9okA7vNtHDCx9",
+      "url": "https://youtu.be/5-mT9D4fdgQ",
       "done_date": null
     },
     {
-      "artist": "Mafumafu",
-      "song": "Meltdown",
-      "tab": "jpop",
-      "hearts": 7,
+      "artist": "Come From Away cast",
+      "song": "Come From Away",
+      "tab": "other",
+      "hearts": 4,
       "requesters": [
-        "PlayChris310"
+        "Mina"
       ],
-      "url": "https://www.youtube.com/watch?v=AOP0Gk0QDS0",
+      "url": null,
       "done_date": null
     },
     {
-      "artist": "LiSA",
-      "song": "Oath Sign",
-      "tab": "anime",
-      "hearts": 7,
+      "artist": "Glen Hansard and Marketa Irglova",
+      "song": "Falling Slowly",
+      "tab": "other",
+      "hearts": 4,
       "requesters": [
-        "Caleb Martin"
+        "Anthony Cruz"
       ],
-      "url": "https://youtu.be/GJ4yehnerHQ?si=4P6ZtY7c42QVEGJ6",
-      "done_date": null
-    },
-    {
-      "artist": "Bratt",
-      "song": "DADADA",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "Peach"
-      ],
-      "url": "https://youtu.be/p3Xd1i1jjNo",
-      "done_date": null
-    },
-    {
-      "artist": "KAF",
-      "song": "positive Substitution",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/vK1CzLBEAkA",
-      "done_date": null
-    },
-    {
-      "artist": "Nobuo Uematsu",
-      "song": "One-Winged Angel Rebirth",
-      "tab": "game",
-      "hearts": 7,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/kR8rk3K6qzo?si=HeFgGMFOuObCkmbs",
-      "done_date": null
-    },
-    {
-      "artist": "Raora Panthera",
-      "song": "Draw",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/uKYxf3wfwP4?si=AiaJ7R3Ef31cGkXH",
-      "done_date": null
-    },
-    {
-      "artist": "Inugame Korone",
-      "song": "Wonky Monkey",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/UPSSUSLlwjY?si=xhlvqGuBzD8BRfUa",
-      "done_date": null
-    },
-    {
-      "artist": "Yuuri",
-      "song": "betelgeuse",
-      "tab": "jpop",
-      "hearts": 7,
-      "requesters": [
-        "Na keko"
-      ],
-      "url": "https://youtu.be/-n790YakYKc?is=YymmeERT09fEHx_0",
-      "done_date": null
-    },
-    {
-      "artist": "KAF",
-      "song": "EAT THE PAST",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=tMKrECxEpq8",
-      "done_date": null
-    },
-    {
-      "artist": "Band-Maid",
-      "song": "Domination",
-      "tab": "jpop",
-      "hearts": 7,
-      "requesters": [
-        "Derwent"
-      ],
-      "url": "https://youtu.be/QbyQCJn6rYg?si=2Zyq4wrCFslYW4_q",
-      "done_date": null
-    },
-    {
-      "artist": "Ayunda Risu",
-      "song": "Mir//or",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "Uncommon Man"
-      ],
-      "url": "https://youtu.be/QIIbdZOBfyM?is=QbQb6Bw9GJeds7SG",
-      "done_date": null
-    },
-    {
-      "artist": "Elizabeth Rose Bloodflame",
-      "song": "Agadoo",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "rendibun"
-      ],
-      "url": "https://youtube.com/watch?v=gmzkHdV2zx4&si=7v0HbzvBS5Ealdba",
-      "done_date": null
-    },
-    {
-      "artist": "KAF",
-      "song": "Made in me",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=D0-QBZBAmYQ",
+      "url": "https://youtu.be/U8toUHjfE0E?si=X_72ofB2rrhDYGEv",
       "done_date": null
     },
     {
       "artist": "Mint Fantome",
-      "song": "Dream a Little Dream of Me",
-      "tab": "vtuber",
-      "hearts": 7,
+      "song": "Snake Eater",
+      "tab": "game",
+      "hearts": 4,
       "requesters": [
-        "NikHellify"
+        "Bossjoe"
       ],
-      "url": "https://www.youtube.com/watch?v=yVmJHvgTo2Y",
-      "done_date": null
+      "url": "https://www.youtube.com/watch?v=BXB26PzV31k&pp=ygUbZW5kIG9mIGEgbGlmZSBtb3JpIGNhbGxpb3Bl",
+      "done_date": "2025-10-26"
     },
     {
-      "artist": "Ironmouse",
-      "song": "Aren't we all the worst",
-      "tab": "vtuber",
-      "hearts": 7,
+      "artist": "Faouzia",
+      "song": "Grenade",
+      "tab": "other",
+      "hearts": 4,
       "requesters": [
-        "lilacwitch"
+        "MB7"
       ],
-      "url": "https://youtu.be/nEgOSprI6A4",
-      "done_date": null
-    },
-    {
-      "artist": "Ellie_minibot",
-      "song": "same moon",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/vx4MiwpfFoA",
-      "done_date": null
-    },
-    {
-      "artist": "The HU",
-      "song": "Lost Soul",
-      "tab": "rock",
-      "hearts": 7,
-      "requesters": [
-        "Marcus A Campbell"
-      ],
-      "url": "https://youtu.be/fPFutucWIog?si=xl4VdTzVtUhDwx39",
-      "done_date": null
-    },
-    {
-      "artist": "Wolpis Carter",
-      "song": "Tokyo Teddy Bear",
-      "tab": "jpop",
-      "hearts": 7,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://youtu.be/tXa2rc2ytJ0",
-      "done_date": null
-    },
-    {
-      "artist": "Ouro Kronii",
-      "song": "Way 2 U",
-      "tab": "vtuber",
-      "hearts": 7,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=Kr2lbQwHQeY",
+      "url": null,
       "done_date": null
     },
     {
       "artist": "Kim Jong Kook",
       "song": "Killing Voice",
       "tab": "morekpop",
-      "hearts": 7,
+      "hearts": 4,
       "requesters": [
         "Ashley"
       ],
-      "url": "https://youtu.be/w6GphHYhFjc?si=wOXtujO1XWU9et3C",
+      "url": "https://youtu.be/w6GphHYhFjc?si=0HI9I2AjbSveX6yc",
       "done_date": null
     },
     {
-      "artist": "BTS",
-      "song": "Mic Drop",
-      "tab": "bts",
-      "hearts": 7,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/kTlv5_Bs8aw?si=iAGBlaqVCGZojhMQ",
-      "done_date": null
-    },
-    {
-      "artist": "Jungkook",
-      "song": "Euphoria",
-      "tab": "bts",
-      "hearts": 7,
-      "requesters": [
-        "Anorah"
-      ],
-      "url": "https://youtu.be/zC_KsEiurvE?si=ugluJKZSZ1CrwSV_",
-      "done_date": null
-    },
-    {
-      "artist": "Agust D",
-      "song": "Snooze",
-      "tab": "bts",
-      "hearts": 7,
-      "requesters": [
-        "Anorah"
-      ],
-      "url": "https://youtu.be/zCNqdvR9e_w?si=pS4nwaSYkpIAJ9wx",
-      "done_date": null
-    },
-    {
-      "artist": "Seungmin",
-      "song": "Still Here",
-      "tab": "skz",
-      "hearts": 7,
-      "requesters": [
-        "Kagari"
-      ],
-      "url": "https://youtu.be/Tsr3lBEn9ww?si=2a3IF8LTDnUyQESj",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "Inception",
-      "tab": "ateez",
-      "hearts": 7,
-      "requesters": [
-        "Carola Schmidt"
-      ],
-      "url": "https://youtu.be/2NArH91kHoQ?is=8A-izIJG1Ms9UEeJ",
-      "done_date": null
-    },
-    {
-      "artist": "Astel Leda",
-      "song": "Envy Baby",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "Peach"
-      ],
-      "url": "https://youtu.be/0D-tcQjYf28",
-      "done_date": null
-    },
-    {
-      "artist": "Shirakami Fubuki",
-      "song": "Kingworld",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "Ludvig Helleryd"
-      ],
-      "url": "https://youtu.be/yVaQpUUAzik?is=pjaz9ZqmyIfiTADm",
-      "done_date": null
-    },
-    {
-      "artist": "LiSA",
-      "song": "This Illusion",
-      "tab": "anime",
-      "hearts": 6,
-      "requesters": [
-        "Caleb Martin"
-      ],
-      "url": "https://youtu.be/UqjqRMPwN-k?si=iEU3iVyPoZl0Ge8a",
-      "done_date": null
-    },
-    {
-      "artist": "Isekaijoucho",
-      "song": "Isekai no Housekitan",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "Peach"
-      ],
-      "url": "https://youtu.be/hcqXjcO791s",
-      "done_date": null
-    },
-    {
-      "artist": "Akuma Nihmune",
-      "song": "Obsessive tendencies",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/O_yKaSLw6Zs",
-      "done_date": null
-    },
-    {
-      "artist": "Sinon Sinfonia",
-      "song": "Never Enough",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/S_6cURTl-xY?si=bGs1z0vSYGckQqVd",
-      "done_date": null
-    },
-    {
-      "artist": "Tak featuring Hatsune Miku and Kasane Teto",
-      "song": "numb numb",
-      "tab": "jpop",
-      "hearts": 6,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/ba7YbGO2aq4",
-      "done_date": null
-    },
-    {
-      "artist": "William Jakrapatr",
-      "song": "เพียงรัก (Piang Ruk)",
-      "tab": "other",
-      "hearts": 6,
-      "requesters": [
-        "angelwing"
-      ],
-      "url": "https://youtu.be/Ua9ZDDPpq5w?is=",
-      "done_date": null
-    },
-    {
-      "artist": "Bao the whale and others",
-      "song": "love in paradise",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/AG75Ud-v-X0",
-      "done_date": null
-    },
-    {
-      "artist": "Fear, and Loathing in Las Vegas",
-      "song": "Let me hear",
-      "tab": "jpop",
-      "hearts": 6,
-      "requesters": [
-        "SoulzHunter"
-      ],
-      "url": "https://www.youtube.com/watch?v=hv7cGXao18U",
-      "done_date": null
-    },
-    {
-      "artist": "Akuma Nihmune",
-      "song": "in love with an anime girl",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/jXeR3Tl9R4M",
-      "done_date": null
-    },
-    {
-      "artist": "Elizabeth Rose Bloodflame",
-      "song": "COBRA",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "rendibun"
-      ],
-      "url": "https://youtube.com/watch?v=bHp06fE210g&si=Wywf_AQhBFAsdyOt",
-      "done_date": null
-    },
-    {
-      "artist": "Wolpis Carter",
-      "song": "Anchors Weigh",
-      "tab": "jpop",
-      "hearts": 6,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=k1d3E1zeVzI",
-      "done_date": null
-    },
-    {
-      "artist": "Mafumafu",
-      "song": "Sacrifice",
-      "tab": "jpop",
-      "hearts": 6,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=boLiYzE3xM8",
-      "done_date": null
-    },
-    {
-      "artist": "Fall Out Boy",
-      "song": "G.I.N.A.S.F.S.",
-      "tab": "rock",
-      "hearts": 6,
-      "requesters": [
-        "iolanthe"
-      ],
-      "url": "https://www.youtube.com/watch?v=73G7kxHhFeI",
-      "done_date": null
-    },
-    {
-      "artist": "Ellie_minibot",
-      "song": "I don't want to be an engineer",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/IyMJ4FhYiEw",
-      "done_date": null
-    },
-    {
-      "artist": "Hoyoverse",
-      "song": "Star Rail LIVE 2025",
-      "tab": "game",
-      "hearts": 6,
-      "requesters": [
-        "MVJ"
-      ],
-      "url": "https://youtu.be/FAckVYINs8E?si=s-mnRr9sqxXhyhDA",
-      "done_date": null
-    },
-    {
-      "artist": "Nerissa Ravencroft",
-      "song": "Sweetest Scarlet",
-      "tab": "vtuber",
-      "hearts": 6,
-      "requesters": [
-        "Crimsonharo"
-      ],
-      "url": "https://www.youtube.com/watch?v=WLMlYZdynxE",
-      "done_date": null
-    },
-    {
-      "artist": "King Gnu",
-      "song": "Prayer X",
-      "tab": "jpop",
-      "hearts": 6,
-      "requesters": [
-        "Kagari"
-      ],
-      "url": "https://youtu.be/_YcQUAVL6_I?si=XgZ_lSLHIO1nbP3E",
-      "done_date": null
-    },
-    {
-      "artist": "Jeff Satur",
-      "song": "Rain Wedding",
-      "tab": "other",
-      "hearts": 6,
-      "requesters": [
-        "Ellie",
-        "Franzi"
-      ],
-      "url": "https://youtu.be/7lKLFVHAQMo?is=3b5KszYjrWcXxxiz",
-      "done_date": null
-    },
-    {
-      "artist": "Xdinary Heroes",
-      "song": "FiRE (My Sweet Misery)",
-      "tab": "morekpop",
-      "hearts": 6,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/y9siAY03BCQ?si=N1ZvFUvpCOTg2AJr",
-      "done_date": null
-    },
-    {
-      "artist": "BTS",
-      "song": "Come Over",
-      "tab": "bts",
-      "hearts": 6,
-      "requesters": [
-        "Anorah"
-      ],
-      "url": "https://youtu.be/Vpyy8JCj4Hw?si=h3EbGswzlVz5RvIP",
-      "done_date": null
-    },
-    {
-      "artist": "Taeyeon",
-      "song": "INVU",
-      "tab": "morekpop",
-      "hearts": 6,
-      "requesters": [
-        "Derlis Aguilera"
-      ],
-      "url": "https://youtu.be/AbZH7XWDW_k?si=JholTTWguMWQPUtu",
-      "done_date": null
-    },
-    {
-      "artist": "BTS",
-      "song": "Louder Than Bombs",
-      "tab": "bts",
-      "hearts": 6,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/I1Pcj3CHun8?si=7rgDImYd7mel4z_R",
-      "done_date": null
-    },
-    {
-      "artist": "RM",
-      "song": "Wild Flower",
-      "tab": "bts",
-      "hearts": 6,
-      "requesters": [
-        "Anorah"
-      ],
-      "url": "https://youtu.be/u18be_kRmC0?si=Y5saTOgb2Ev5QQkm",
-      "done_date": null
-    },
-    {
-      "artist": "Seventeen",
-      "song": "Tipsy Live 2",
-      "tab": "morekpop",
-      "hearts": 6,
-      "requesters": [
-        "Lyn"
-      ],
-      "url": "https://youtu.be/WK46xeTxMmU?si=Sw_eHP6yy99nMwCw",
-      "done_date": null
-    },
-    {
-      "artist": "Seo Eunkwang & Hwang Soonok",
-      "song": "With Love on Immortal Songs 2",
-      "tab": "morekpop",
-      "hearts": 6,
-      "requesters": [
-        "IMS"
-      ],
-      "url": "https://www.youtube.com/watch?v=8MTyqNFGkDo",
-      "done_date": null
-    },
-    {
-      "artist": "Wolpis Carter",
-      "song": "Blooming in the Mud",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=40dJS_LC6S8",
-      "done_date": null
-    },
-    {
-      "artist": "Neurosama",
-      "song": "Machine Love",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Caleb Martin"
-      ],
-      "url": "https://youtu.be/3jWOyIcKz98?si=7_pcx9ebZHuajM5U",
-      "done_date": null
-    },
-    {
-      "artist": "Rikka",
-      "song": "Re:Hello world",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Peach"
-      ],
-      "url": "https://youtu.be/NK6Elz5MrqQ",
-      "done_date": null
-    },
-    {
-      "artist": "Coldplay x BTS",
-      "song": "My Universe",
-      "tab": "rock",
-      "hearts": 5,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/3YqPKLZF_WU?si=N-Dzh22pM9jpRJbd",
-      "done_date": null
-    },
-    {
-      "artist": "Dave Larson/Ponyphonic",
-      "song": "Lullaby for a princess",
-      "tab": "other",
-      "hearts": 5,
-      "requesters": [
-        "Neeko"
-      ],
-      "url": "https://www.youtube.com/watch?v=i7PQ9IO-7fU",
-      "done_date": null
-    },
-    {
-      "artist": "Lovebites",
-      "song": "Judgement Day",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "Derwent"
-      ],
-      "url": "https://youtu.be/yYEUGlFNBKc?si=vpvShCLNZo7UzYX4",
-      "done_date": null
-    },
-    {
-      "artist": "VWP",
-      "song": "Resonance",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=ar0nuMEBmfY",
-      "done_date": null
-    },
-    {
-      "artist": "Asu",
-      "song": "Slowly",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://youtu.be/enFLXbbXWdk",
-      "done_date": null
-    },
-    {
-      "artist": "Mafumafu",
-      "song": "Hitomodoki",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=wjbuvMHaCgI",
-      "done_date": null
-    },
-    {
-      "artist": "Rosu",
-      "song": "Wizard's Diary",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=Eqp5nUfNYKo",
-      "done_date": null
-    },
-    {
-      "artist": "9lana",
-      "song": "Aimai",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/_hqEfCOuyJg",
-      "done_date": null
-    },
-    {
-      "artist": "GEMS COMPANY",
-      "song": "Hai to Inori",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=iqQP4zBBv4g",
-      "done_date": null
-    },
-    {
-      "artist": "Akuma Nihmune",
-      "song": "Spaced out",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/2ev9NspM6-8",
-      "done_date": null
-    },
-    {
-      "artist": "Ladrones",
-      "song": "catalog",
-      "tab": "rock",
-      "hearts": 5,
-      "requesters": [
-        "Torie"
-      ],
-      "url": "https://www.youtube.com/watch?v=oe4wKWoEkIs&list=PLmyAV2byPRxicWo7eT9XAUwudZTu90OYL&index=138",
-      "done_date": null
-    },
-    {
-      "artist": "Roboco & AZKi",
-      "song": "革命道中 - On The Way",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Daniel"
-      ],
-      "url": "https://youtube.com/watch?v=FloUbXxN8sA",
-      "done_date": null
-    },
-    {
-      "artist": "Underscores",
-      "song": "Music",
-      "tab": "other",
-      "hearts": 5,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=UNYqwpx7Cys",
-      "done_date": null
-    },
-    {
-      "artist": "Underscores",
-      "song": "Do it",
-      "tab": "other",
-      "hearts": 5,
-      "requesters": [
-        "mr_unaware"
-      ],
-      "url": "https://youtu.be/Zd0j0xnhWFw",
-      "done_date": null
-    },
-    {
-      "artist": "Bao the Whale",
-      "song": "Birdbrain",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Siku"
-      ],
-      "url": "https://youtu.be/anGhKYF-iTM?si=Aw5TmLosGI-0XazR",
-      "done_date": null
-    },
-    {
-      "artist": "Origa",
-      "song": "Rise",
-      "tab": "anime",
-      "hearts": 5,
-      "requesters": [
-        "Mukansa Monkey"
-      ],
-      "url": "https://www.youtube.com/watch?v=WjLZvsRwqDQ",
-      "done_date": null
-    },
-    {
-      "artist": "Origa",
-      "song": "Inner Universe",
-      "tab": "anime",
-      "hearts": 5,
-      "requesters": [
-        "Mukansa Monkey"
-      ],
-      "url": "https://www.youtube.com/watch?v=EIVgSuuUTwQ",
-      "done_date": null
-    },
-    {
-      "artist": "Official Hige Dandism",
-      "song": "Cry Baby",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/O1bhZgkC4Gw?si=ExkGRg9R_zHwe0FM",
-      "done_date": null
-    },
-    {
-      "artist": "Aimer",
-      "song": "Dareka, Umi Wo",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "Kagari"
-      ],
-      "url": "https://youtu.be/btbQRq-YStA?si=gHjpCRY2CJs0TVWs",
-      "done_date": null
-    },
-    {
-      "artist": "St. Paul and the Broken Bones",
-      "song": "Fall Moon",
-      "tab": "other",
-      "hearts": 5,
-      "requesters": [
-        "Jamie Wirth"
-      ],
-      "url": "https://youtu.be/APNyDpI7JQI?si=XXgSfYWUyw5CQdgf",
-      "done_date": null
-    },
-    {
-      "artist": "Black Pumas",
-      "song": "Colors",
-      "tab": "rock",
-      "hearts": 5,
-      "requesters": [
-        "Jamie Wirth"
-      ],
-      "url": "https://youtu.be/pbyyRCr60Q8?si=SoIpeGhHJ7_5DOrU",
-      "done_date": null
-    },
-    {
-      "artist": "ReGLOSS",
-      "song": "Sakura Mirage",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=jAOqZqQXbqM",
-      "done_date": null
-    },
-    {
-      "artist": "Tokyo Ska Paradise Orchestra",
-      "song": "グッドラック！マイフレンド",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "Marcus A Campbell"
-      ],
-      "url": "https://www.youtube.com/watch?v=UcqQ8xO468s",
-      "done_date": null
-    },
-    {
-      "artist": "Sheena Ringo",
-      "song": "Maranouchi Sadistic",
-      "tab": "jpop",
-      "hearts": 5,
-      "requesters": [
-        "Alliterative Alias"
-      ],
-      "url": "https://www.youtube.com/watch?v=TFX8TpaUz4w",
-      "done_date": null
-    },
-    {
-      "artist": "Azumi Takahashi, Lotus Juice",
-      "song": "Color Your Night",
-      "tab": "game",
-      "hearts": 5,
-      "requesters": [
-        "Dacteo"
-      ],
-      "url": "https://youtu.be/N0o8H_5PK84?si=Hc1_MLMF0jOw7Zxu",
-      "done_date": null
-    },
-    {
-      "artist": "Tom Cardy",
-      "song": "Transcendental Cha Cha Cha",
-      "tab": "other",
-      "hearts": 5,
-      "requesters": [
-        "Hmhya"
-      ],
-      "url": "https://www.youtube.com/watch?v=BLzxuIfD9rU",
-      "done_date": null
-    },
-    {
-      "artist": "SB19",
-      "song": "Wakas at Simula Concert",
-      "tab": "morekpop",
-      "hearts": 5,
-      "requesters": [
-        "odiethecat"
-      ],
-      "url": "https://youtube.com/playlist?list=PLqjAar8DJ_el9-_LsdGlKvzQeQLc8gsff&si=7kJmLtUV40jovSg_",
-      "done_date": null
-    },
-    {
-      "artist": "Ina",
-      "song": "Violet",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/8ZdLXELdF9Q?si=clpdSbN9Q5yf-bPQ",
-      "done_date": null
-    },
-    {
-      "artist": "Takanashi Kiara",
-      "song": "Do U",
-      "tab": "vtuber",
-      "hearts": 5,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/QI96hnhcr2E?si=4Co-UvCTlc9IYGI6",
-      "done_date": null
-    },
-    {
-      "artist": "SHINee",
-      "song": "Atmos",
-      "tab": "morekpop",
-      "hearts": 5,
-      "requesters": [
-        "Ashley"
-      ],
-      "url": "https://youtu.be/1XFEtAx5i7E?is=B0lfFrWSXbtXTyO8",
-      "done_date": null
-    },
-    {
-      "artist": "BTS",
-      "song": "Outro: Tear",
-      "tab": "bts",
-      "hearts": 5,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/UDuaJGYe8EQ?si=X6U5xYomCn4zVKSg",
-      "done_date": null
-    },
-    {
-      "artist": "Ailee",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 5,
-      "requesters": [
-        "Feli"
-      ],
-      "url": "https://youtu.be/5GrKuaXBg4k?si=_0HCSqI6t3GdnV3i",
-      "done_date": null
-    },
-    {
-      "artist": "RM",
-      "song": "Nuts",
-      "tab": "bts",
-      "hearts": 5,
-      "requesters": [
-        "Anorah"
-      ],
-      "url": "https://youtu.be/z7FiZTE1NiI?si=mhRNsaHpK0SIMxcX",
-      "done_date": null
-    },
-    {
-      "artist": "BTS",
-      "song": "BTS Room Live for Festa 2021",
-      "tab": "bts",
-      "hearts": 5,
-      "requesters": [
-        "Anorah"
-      ],
-      "url": "https://youtu.be/RRhjdYsNwAk?si=51WPkohs5C3T2j7k",
-      "done_date": null
-    },
-    {
-      "artist": "Tomorrow X Together",
-      "song": "Day and Night Medley",
-      "tab": "morekpop",
-      "hearts": 5,
-      "requesters": [
-        "Avalonian"
-      ],
-      "url": "https://www.youtube.com/watch?v=EUERJYKCzWU",
-      "done_date": null
-    },
-    {
-      "artist": "Jin",
-      "song": "Epiphany",
-      "tab": "bts",
-      "hearts": 5,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/sVH2eKVKIWU?si=LbCEWeNGTitkwuPt",
-      "done_date": null
-    },
-    {
-      "artist": "Agust D",
-      "song": "Haegeum",
-      "tab": "bts",
-      "hearts": 5,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/iy9qZR_OGa0?si=5y69Jh8enxpMO5jO",
-      "done_date": null
-    },
-    {
-      "artist": "SHINee",
-      "song": "Identity",
-      "tab": "morekpop",
-      "hearts": 5,
-      "requesters": [
-        "Bennett"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "The Rose",
-      "song": "Once Upon a WRLD concert",
-      "tab": "rock",
-      "hearts": 5,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/3zoPqffb-tE?si=1uAKMkb7XDC3CZPX",
-      "done_date": null
-    },
-    {
-      "artist": "Epik High",
-      "song": "Fan",
-      "tab": "morekpop",
-      "hearts": 5,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/zGSP493Wf4A?si=saRiBUuff13vu8TT",
-      "done_date": null
-    },
-    {
-      "artist": "Jongho",
-      "song": "Lee Mujin Service",
-      "tab": "ateez",
-      "hearts": 5,
-      "requesters": [
-        "IMS"
-      ],
-      "url": "https://www.youtube.com/watch?v=_XfeoJCEfWc",
-      "done_date": null
-    },
-    {
-      "artist": "Sweeney Todd cast",
-      "song": "Sweeney Todd the Demon Barber of Fleet Street",
-      "tab": "musical",
-      "hearts": 4,
-      "requesters": [
-        "Hyperion"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Alan Walker / Ghost Huang",
-      "song": "Sad Sometimes",
+      "artist": "Faouzia",
+      "song": "RIP LOVE",
       "tab": "other",
       "hearts": 4,
       "requesters": [
-        "Jingyu Wu"
+        "cashette"
       ],
-      "url": "https://youtu.be/-KORbfsqFGI?si=TsiRrWS2w4ZjVncM",
-      "done_date": null
-    },
-    {
-      "artist": "Sokoninaru",
-      "song": "Tenohira De Odoru",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "neZiiak"
-      ],
-      "url": "https://www.youtube.com/watch?v=n7MyoBki9wk",
-      "done_date": null
-    },
-    {
-      "artist": "Charlie Puth",
-      "song": "Left and Right",
-      "tab": "other",
-      "hearts": 4,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/a7GITgqwDVg?si=1kCNjdiR-YsxG0IJ",
-      "done_date": null
-    },
-    {
-      "artist": "Amanda Achen",
-      "song": "My Star",
-      "tab": "game",
-      "hearts": 4,
-      "requesters": [
-        "blkrose_22"
-      ],
-      "url": "https://youtu.be/F7-bBVIKCnE?si=Y19sHT-9-VSseuYW",
-      "done_date": null
-    },
-    {
-      "artist": "Mafumafu",
-      "song": "Tokyo Dome concert in 2021",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=zbqSOzLE8YI",
-      "done_date": null
-    },
-    {
-      "artist": "Marinasu",
-      "song": "Wonderland",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=EasFva6CjYs",
-      "done_date": null
-    },
-    {
-      "artist": "Temari Tsukimura",
-      "song": "Luna Say Maybe",
-      "tab": "game",
-      "hearts": 4,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=Sq5Dj0U06vQ",
-      "done_date": null
-    },
-    {
-      "artist": "Yuudutsu Tear",
-      "song": "Twilight and Candy",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=YbU-mrILOCY",
-      "done_date": null
-    },
-    {
-      "artist": "&TEAM",
-      "song": "Heartbreak Time Machine Live",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Avvent"
-      ],
-      "url": "https://www.youtube.com/watch?v=gbV2-z40obQ&list=RDgbV2-z40obQ&start_radio=1",
-      "done_date": null
-    },
-    {
-      "artist": "Jeff Satur",
-      "song": "Why Don't You Stay",
-      "tab": "other",
-      "hearts": 4,
-      "requesters": [
-        "Ellie"
-      ],
-      "url": "https://youtu.be/6ZF8RXvV9sQ?is=nKmg2BBMZRgzD3Ns",
-      "done_date": null
-    },
-    {
-      "artist": "LYKN",
-      "song": "catalog",
-      "tab": "other",
-      "hearts": 4,
-      "requesters": [
-        "angelwing"
-      ],
-      "url": "https://youtu.be/dtt4SM-vhm0?is=tYdSEJudh7Sl3Bwk",
-      "done_date": null
-    },
-    {
-      "artist": "Isekai Joucho",
-      "song": "Silhouette",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=XKUSVhiA0-w",
-      "done_date": null
-    },
-    {
-      "artist": "Yuzuha Makura",
-      "song": "Replica",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=NEhv6rnpOas",
-      "done_date": null
-    },
-    {
-      "artist": "Zara Larsson",
-      "song": "Lush Life & Midnight Sun",
-      "tab": "euro",
-      "hearts": 4,
-      "requesters": [
-        "Ellie"
-      ],
-      "url": "https://youtu.be/5jrn4IfWYa4?is=SjwszzfBVsKa_JiY",
-      "done_date": null
-    },
-    {
-      "artist": "Chikara",
-      "song": "Do it a capella",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Savy"
-      ],
-      "url": "https://youtu.be/tn8OWz4KzuA",
-      "done_date": null
-    },
-    {
-      "artist": "KAJ",
-      "song": "Economy Plus",
-      "tab": "euro",
-      "hearts": 4,
-      "requesters": [
-        "Marcus A Campbell"
-      ],
-      "url": "https://youtu.be/Y8TcF-r7TaE?si=Zzg296mN4hCBDeDZ",
-      "done_date": null
-    },
-    {
-      "artist": "Tom Cardy ft Montaigne",
-      "song": "Red Flags",
-      "tab": "other",
-      "hearts": 4,
-      "requesters": [
-        "Marcus A Campbell"
-      ],
-      "url": "https://youtu.be/ozezG1zpxXQ?si=2MPvH1iBkZtukmHr",
-      "done_date": null
-    },
-    {
-      "artist": "Milet",
-      "song": "Tell me",
-      "tab": "anime",
-      "hearts": 4,
-      "requesters": [
-        "Sherry"
-      ],
-      "url": "https://youtu.be/WhLcQAzbpGA?si=qAxqSKXTrLOI6NoM",
-      "done_date": null
-    },
-    {
-      "artist": "Northern Boys",
-      "song": "Sexy Train",
-      "tab": "other",
-      "hearts": 4,
-      "requesters": [
-        "Marcus A Campbell"
-      ],
-      "url": "https://youtu.be/4VXKhJfRQ7k?si=-IGlqKsUvs3wAGb7",
-      "done_date": null
-    },
-    {
-      "artist": "Sasuke Haraguchi",
-      "song": "Medicine (igaku)",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/F38EuG2dAyM?si=ijqCCtdFqvovtfXH",
-      "done_date": null
-    },
-    {
-      "artist": "Mrs. GREEN APPLE",
-      "song": "Que Sera Sera",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/i1wofkI11g8?si=YxOmJoMEx-aiHz5T",
-      "done_date": null
-    },
-    {
-      "artist": "Teniwaha",
-      "song": "Villan",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/p9FJXfGHtDA?si=Szmco5SK1oXRZGDo",
-      "done_date": null
-    },
-    {
-      "artist": "Ado",
-      "song": "Villan",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/r_wO7xKI-tw?si=LpT0kxqIJDOmpifZ",
-      "done_date": "2026-06-02"
-    },
-    {
-      "artist": "Mrs. GREEN APPLE",
-      "song": "Darling",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "kate_master"
-      ],
-      "url": "https://youtu.be/172xbmuRf7w?si=Bm91V8p9h7scaoQG",
-      "done_date": null
-    },
-    {
-      "artist": "Centimillimental",
-      "song": "Fuyu no Hanashi",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Kagari"
-      ],
-      "url": "https://youtu.be/xgAbsJVtJLs?si=ZOYHPGXMFPAOMT70",
-      "done_date": null
-    },
-    {
-      "artist": "Ayreon",
-      "song": "The Day That the World Breaks Down",
-      "tab": "rock",
-      "hearts": 4,
-      "requesters": [
-        "Jamie Wirth"
-      ],
-      "url": "https://youtu.be/oFuMKdrzPqU?si=JoEA5LRMXRK9vh3J",
-      "done_date": null
-    },
-    {
-      "artist": "Devin Townsend",
-      "song": "Kingdom",
-      "tab": "rock",
-      "hearts": 4,
-      "requesters": [
-        "Jamie Wirth"
-      ],
-      "url": "https://youtu.be/nubJjB95VdY?si=-Ox_MeSFVp5ni0u-",
-      "done_date": null
-    },
-    {
-      "artist": "Amane Kanata",
-      "song": "Fallen Wing",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=Z2K1H9D0DZ8",
-      "done_date": null
-    },
-    {
-      "artist": "Tsunomaki Watame",
-      "song": "Mayday, Mayday",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=L_JvgkZ04t0",
-      "done_date": null
-    },
-    {
-      "artist": "Koseki Bijou",
-      "song": "Rock In",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=XSZ0iMP80QQ",
-      "done_date": null
-    },
-    {
-      "artist": "Zutomayo",
-      "song": "Study Me",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Dragon Phly"
-      ],
-      "url": "https://youtu.be/_WQNWVZqw4Q?si=CXHbRHV9hmH8Q3ZH",
-      "done_date": null
-    },
-    {
-      "artist": "Suis",
-      "song": "catalog",
-      "tab": "jpop",
-      "hearts": 4,
-      "requesters": [
-        "Kerstin Weise Walther"
-      ],
-      "url": "https://www.youtube.com/watch?v=OuSFM2l9OaI",
-      "done_date": null
-    },
-    {
-      "artist": "Taiga",
-      "song": "I Ask",
-      "tab": "game",
-      "hearts": 4,
-      "requesters": [
-        "Dacteo"
-      ],
-      "url": "https://youtu.be/-GaV5ouXOOw?si=9u2oVqYUSYn8ST-w",
-      "done_date": null
-    },
-    {
-      "artist": "David Briand",
-      "song": "My Curse, My Fate",
-      "tab": "game",
-      "hearts": 4,
-      "requesters": [
-        "Dacteo"
-      ],
-      "url": "https://youtu.be/l7S3fTAZUgk?si=oUEfbcyqIx1w-Km7",
-      "done_date": null
-    },
-    {
-      "artist": "Takanashi Kiara",
-      "song": "Sparks",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/Lq9eqHDKJPE?si=zc_Z-wEu84-QrDAQ",
-      "done_date": null
-    },
-    {
-      "artist": "Takanashi Kiara",
-      "song": "Do U (Korean)",
-      "tab": "vtuber",
-      "hearts": 4,
-      "requesters": [
-        "Andrew"
-      ],
-      "url": "https://youtu.be/AviJuDMEmEc?si=78AvKXemM0JzzZK9",
-      "done_date": null
-    },
-    {
-      "artist": "Amanda Achen and the Eorzean Symphony",
-      "song": "Tomorrow and Tomorrow",
-      "tab": "game",
-      "hearts": 4,
-      "requesters": [
-        "Ciel"
-      ],
-      "url": "https://www.youtube.com/watch?v=5fgB3M2y4wY",
-      "done_date": null
-    },
-    {
-      "artist": "Nickelback",
-      "song": "Bones for the Crows",
-      "tab": "rock",
-      "hearts": 4,
-      "requesters": [
-        "Cassidy McGuire"
-      ],
-      "url": "https://www.youtube.com/watch?v=PhlbZFdlHC0",
-      "done_date": null
-    },
-    {
-      "artist": "Meovv",
-      "song": "Toxic",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/8F61FXiYpP0?si=TZ5c8nRaPKo3SURo",
-      "done_date": null
-    },
-    {
-      "artist": "Monsta X",
-      "song": "Heal",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/2EFwncas9Z4?si=OZn4Q7qkXw2ZhdrA",
-      "done_date": null
-    },
-    {
-      "artist": "aespa",
-      "song": "Savage",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Derlis Aguilera"
-      ],
-      "url": "https://youtu.be/WPdWvnAAurg?si=OuELfHAT4jSJJ3pI",
-      "done_date": null
-    },
-    {
-      "artist": "JUSTB",
-      "song": "catalog",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Bennett"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "ENHYPEN",
-      "song": "Coachella Weekend 2 Performance",
-      "tab": "enhypen",
-      "hearts": 4,
-      "requesters": [
-        "Shufi"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Girls' Generation",
-      "song": "I GOT A BOY",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/wq7ftOZBy0E?list=RDwq7ftOZBy0E",
-      "done_date": null
-    },
-    {
-      "artist": "TVXQ",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/i7GYq_JazwQ?list=RDi7GYq_JazwQ",
-      "done_date": null
-    },
-    {
-      "artist": "Irene",
-      "song": "Like A Flower",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/SafyAWcgVXg?list=RDSafyAWcgVXg",
-      "done_date": null
-    },
-    {
-      "artist": "Wendy",
-      "song": "Lee Mujin Service",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/Fh8dU0SPYyg",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "Coachella Weekend 2",
-      "tab": "ateez",
-      "hearts": 4,
-      "requesters": [
-        "Knightly"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Akmu",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Lyn"
-      ],
-      "url": "https://youtu.be/3Hr35Kr2aXA?si=Dt-hc_xNdXzI5BDK",
-      "done_date": null
-    },
-    {
-      "artist": "iKON",
-      "song": "Killing Verse",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Lyn"
-      ],
-      "url": "https://youtu.be/q69pW7bDMJ8?si=HlfPO-EuL3rkZp_G",
-      "done_date": null
-    },
-    {
-      "artist": "Tablo & RM",
-      "song": "Stop The Rain",
-      "tab": "morekpop",
-      "hearts": 4,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/ZXAcTToLy_Y?si=12FAiIdUOysj6kjM",
-      "done_date": null
-    },
-    {
-      "artist": "The Rose",
-      "song": "Once Upon A WRLD",
-      "tab": "rock",
-      "hearts": 4,
-      "requesters": [
-        "Juliette GR"
-      ],
-      "url": "https://www.youtube.com/watch?v=3zoPqffb-tE&t=2786s",
-      "done_date": null
-    },
-    {
-      "artist": "Hongjoong",
-      "song": "Numb",
-      "tab": "ateez",
-      "hearts": 4,
-      "requesters": [
-        "IMS"
-      ],
-      "url": "https://www.youtube.com/watch?v=qsyRhKxrscI",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "Selfish Waltz",
-      "tab": "ateez",
-      "hearts": 4,
-      "requesters": [
-        "IMS"
-      ],
-      "url": "https://www.youtube.com/watch?v=um3xU-iPJbU",
-      "done_date": null
-    },
-    {
-      "artist": "Dimash, Terry Lin, Ghost Huang",
-      "song": "Unforgettable Day",
-      "tab": "other",
-      "hearts": 3,
-      "requesters": [
-        "Jingyu Wu"
-      ],
-      "url": "https://youtu.be/Y0dPHmnyLlE?si=as_zElebcdgkb5tv",
-      "done_date": null
-    },
-    {
-      "artist": "Lizzy McAlpine",
-      "song": "Ceilings",
-      "tab": "rock",
-      "hearts": 3,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/2bpMSpFTdzM?si=Pp4j5GrSCHSvNHil",
-      "done_date": null
-    },
-    {
-      "artist": "Nephla",
-      "song": "Night Magician",
-      "tab": "vtuber",
-      "hearts": 3,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=R12CcbyRq5Q",
-      "done_date": null
-    },
-    {
-      "artist": "Cosmo Kamizuru",
-      "song": "Orbital Period",
-      "tab": "vtuber",
-      "hearts": 3,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=ZAUqRkhMHbc",
-      "done_date": null
-    },
-    {
-      "artist": "William Jakrapatr",
-      "song": "I Have Nothing",
-      "tab": "other",
-      "hearts": 3,
-      "requesters": [
-        "angelwing"
-      ],
-      "url": "https://youtu.be/ZoTSx98qPeE?is=lB4pRX_6h_oVWaDw",
-      "done_date": null
-    },
-    {
-      "artist": "&TEAM",
-      "song": "Bewitched",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Avvent"
-      ],
-      "url": "https://www.youtube.com/watch?v=Z7tiMUiSORo&list=RDZ7tiMUiSORo&start_radio=1",
-      "done_date": null
-    },
-    {
-      "artist": "&TEAM",
-      "song": "Firework",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Avvent"
-      ],
-      "url": "https://www.youtube.com/watch?v=TFTRHMri8Qw&list=RDTFTRHMri8Qw&start_radio=1",
-      "done_date": null
-    },
-    {
-      "artist": "澪Rei",
-      "song": "Payphone",
-      "tab": "vtuber",
-      "hearts": 3,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=I9PugAPnbiw",
-      "done_date": null
-    },
-    {
-      "artist": "u32",
-      "song": "Blur",
-      "tab": "game",
-      "hearts": 3,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=lkVnLCjA9xs",
-      "done_date": null
-    },
-    {
-      "artist": "Luz",
-      "song": "kokoronashi",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Sherry"
-      ],
-      "url": "https://youtu.be/EUBetKCDGN4?si=YA-u4GoEULwoKqd4",
-      "done_date": null
-    },
-    {
-      "artist": "Slayyyter",
-      "song": "$t Loser",
-      "tab": "other",
-      "hearts": 3,
-      "requesters": [
-        "tai"
-      ],
-      "url": "https://youtu.be/Z-2RqE7a8Q0?si=5EpmnS_6vxTKhqls",
-      "done_date": null
-    },
-    {
-      "artist": "Colm R McGuiness",
-      "song": "Side-side-side quest",
-      "tab": "euro",
-      "hearts": 3,
-      "requesters": [
-        "Marcus A Campbell"
-      ],
-      "url": "https://youtu.be/LgkFH8XTkPQ?si=i40HQulpb652g_lW",
-      "done_date": null
-    },
-    {
-      "artist": "Zhou Shen",
-      "song": "China in The Lights",
-      "tab": "other",
-      "hearts": 3,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/vwBQFfmp8bk?si=aE6RvXN5FDZ-2KvK&t=40",
-      "done_date": null
-    },
-    {
-      "artist": "Kikuo",
-      "song": "Reincarnation Ascension",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/WhRBeW8IOgs?si=Gvg1n9dVehLYL6z0",
-      "done_date": null
-    },
-    {
-      "artist": "Official Hige Dandism",
-      "song": "Same Blue",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/A7cp6OVa0Qc?si=bPdX-Cc-iB4c34Xj",
-      "done_date": null
-    },
-    {
-      "artist": "iyowa",
-      "song": "Kyu-kurarin",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/zOg8JV1IDgM?si=38tN4AivujGGU7-o",
-      "done_date": null
-    },
-    {
-      "artist": "Zhou Shen",
-      "song": "The Silence of The Lambs",
-      "tab": "other",
-      "hearts": 3,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/jPfKLyqBqZI?si=GHVwLQe-w3fx1jiB",
-      "done_date": null
-    },
-    {
-      "artist": "iyowa",
-      "song": "Leaving you on the back of the Earth",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/ruBxsq03FZo?is=gcJid3mVphcEOiK8",
-      "done_date": null
-    },
-    {
-      "artist": "Shan Yichun",
-      "song": "Zhu Yu (Jade of Time)",
-      "tab": "other",
-      "hearts": 3,
-      "requesters": [
-        "Dorsann"
-      ],
-      "url": "https://youtu.be/iy8-IviW3Qo?si=QrED9Oj0eGrT_Okn",
-      "done_date": null
-    },
-    {
-      "artist": "Rishie-P",
-      "song": "catalog",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Lky123"
-      ],
-      "url": "https://youtube.com/@rishie-p?si=Pyg6wpzD_kVOQREP",
-      "done_date": null
-    },
-    {
-      "artist": "Usada Pekora",
-      "song": "いいわけバニー",
-      "tab": "vtuber",
-      "hearts": 3,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=tlLo7jypqDI",
-      "done_date": null
-    },
-    {
-      "artist": "Ai Mori, Astra Yao",
-      "song": "Stars Align",
-      "tab": "game",
-      "hearts": 3,
-      "requesters": [
-        "Dacteo"
-      ],
-      "url": "https://youtu.be/9LffgQC0Y58?si=pLT4faDGt927pArD",
-      "done_date": null
-    },
-    {
-      "artist": "HONK THE HORN",
-      "song": "NO LEASH",
-      "tab": "vtuber",
-      "hearts": 3,
-      "requesters": [
-        "Hmhya"
-      ],
-      "url": "https://www.youtube.com/watch?v=7kTUgS414QE",
-      "done_date": null
-    },
-    {
-      "artist": "Ellie Minibot",
-      "song": "Stupid Heart",
-      "tab": "vtuber",
-      "hearts": 3,
-      "requesters": [
-        "Hmhya"
-      ],
-      "url": "https://www.youtube.com/watch?v=lwqixDryQck",
-      "done_date": null
-    },
-    {
-      "artist": "Mori Calliope",
-      "song": "Shuuden",
-      "tab": "vtuber",
-      "hearts": 3,
-      "requesters": [
-        "Hmhya"
-      ],
-      "url": "https://www.youtube.com/watch?v=CAcp1080J7w",
-      "done_date": null
-    },
-    {
-      "artist": "Hitoshizuku×Yama△",
-      "song": "Blessed Messiah and the Tower of Ai",
-      "tab": "jpop",
-      "hearts": 3,
-      "requesters": [
-        "Ash Rose"
-      ],
-      "url": "https://youtu.be/CiEC329xPos?si=nv4Xu6UZ46-BlsiA",
-      "done_date": null
-    },
-    {
-      "artist": "Repo! The Genetic Opera",
-      "song": "catalog",
-      "tab": "musical",
-      "hearts": 3,
-      "requesters": [
-        "Cassidy McGuire"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Babymonster",
-      "song": "Stuck in The Middle",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "TexasTortle"
-      ],
-      "url": "https://youtu.be/KaM7ZxoGQuE?si=bk4-VWlofdZzIQ6R",
-      "done_date": null
-    },
-    {
-      "artist": "Monsta X",
-      "song": "Baby Blue",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/PxZej9IEVxc?si=w8V-m2y8c92TNmzR",
-      "done_date": null
-    },
-    {
-      "artist": "Monsta X",
-      "song": "Growing Pains",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/tUHmmMqV7pI?si=gZLaQRl12sYnxicm",
-      "done_date": null
-    },
-    {
-      "artist": "Keeho",
-      "song": "Creep",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/fAQOnVWFvyg?si=_7Ip8Bejum8smPWY",
-      "done_date": null
-    },
-    {
-      "artist": "P1 Harmony",
-      "song": "L.O.Y.L.",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/mt6gODAEpxY?si=IvuZiChUelvm6Psr",
-      "done_date": null
-    },
-    {
-      "artist": "DAY6",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "gamecube"
-      ],
-      "url": "https://youtu.be/OvIk6BDkVE4?si=xJF0iZylnVtppa7N",
-      "done_date": null
-    },
-    {
-      "artist": "aespa",
-      "song": "Lemonade",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Youri"
-      ],
-      "url": "https://youtube.com/playlist?list=OLAK5uy_lVGpH4YV73G70F6AtrK7bSThOn0zV0OVc&si=aD1yAZVgz1Hd9oUR",
-      "done_date": null
-    },
-    {
-      "artist": "NCT DREAM",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/lFvZXuxy2zo?list=RDlFvZXuxy2zo",
-      "done_date": null
-    },
-    {
-      "artist": "NCT 127",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/SM5VZzWYO5Y?list=RDSM5VZzWYO5Y",
-      "done_date": null
-    },
-    {
-      "artist": "K.Will",
-      "song": "Please Don't",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/HGpyXfCqBCk?list=RDHGpyXfCqBCk",
-      "done_date": null
-    },
-    {
-      "artist": "Apink",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Feli"
-      ],
-      "url": "https://youtu.be/tJGunpmi2wo?si=ALhcUlCkxwnSNfHk",
-      "done_date": null
-    },
-    {
-      "artist": "MAMAMOO",
-      "song": "Immortal Songs Medley",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "IMS"
-      ],
-      "url": "https://www.youtube.com/watch?v=h3YCi0qBMzs",
-      "done_date": null
-    },
-    {
-      "artist": "ATEEZ",
-      "song": "NOT OKAY",
-      "tab": "ateez",
-      "hearts": 3,
-      "requesters": [
-        "IMS"
-      ],
-      "url": "https://www.youtube.com/watch?v=oc_2sjQXa0Q",
-      "done_date": null
-    },
-    {
-      "artist": "EXO",
-      "song": "Tempo",
-      "tab": "morekpop",
-      "hearts": 3,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/iwd8N6K-sLk?list=RDiwd8N6K-sLk",
-      "done_date": null
-    },
-    {
-      "artist": "Jongho",
-      "song": "So You",
-      "tab": "ateez",
-      "hearts": 3,
-      "requesters": [
-        "Tella"
-      ],
-      "url": "https://youtu.be/dyWNvMxaSIk?si=IvJZjF3MRIkSQXcX",
-      "done_date": null
-    },
-    {
-      "artist": "Powerwolf",
-      "song": "catalog",
-      "tab": "rock",
-      "hearts": 2,
-      "requesters": [
-        "Cricket"
-      ],
-      "url": "https://youtu.be/tDrLWEJpcW4?si=YRnp5wwroLypcAX_",
+      "url": "https://youtu.be/dIB5Kyc5hmQ?si=vHUXce5688MANsZw",
       "done_date": null
     },
     {
       "artist": "Bad Omens",
-      "song": "Death Of Peace Of Mind",
+      "song": "Nowhere to Go",
       "tab": "rock",
-      "hearts": 2,
+      "hearts": 4,
       "requesters": [
-        "Sara Murphy"
+        "StellarShibe"
       ],
-      "url": "https://youtu.be/ouW_RCAI0sg?si=o51DGRCcQq0Gnetd",
+      "url": "https://youtu.be/-nq7NmYQI9s?si=uFy3jq1JZEvhCrBp",
       "done_date": null
     },
     {
-      "artist": "Malstrøm",
-      "song": "Limit Voltage",
-      "tab": "vtuber",
-      "hearts": 2,
-      "requesters": [
-        "Kensou"
-      ],
-      "url": "https://www.youtube.com/watch?v=cX5-P7ATGvc",
-      "done_date": null
-    },
-    {
-      "artist": "Sufjan Stevens",
-      "song": "catalog",
+      "artist": "Missioned Souls",
+      "song": "Tunnel of Love",
       "tab": "rock",
-      "hearts": 2,
+      "hearts": 4,
       "requesters": [
-        "iolanthe"
+        "Soulmate"
       ],
-      "url": null,
+      "url": "https://youtu.be/gkuXUPuB3Ak?si=rpz_OudTSFhzk-On",
       "done_date": null
     },
     {
-      "artist": "Kaleo",
-      "song": "I Can't Go on Without You",
-      "tab": "rock",
-      "hearts": 2,
+      "artist": "EXO",
+      "song": "Overdose",
+      "tab": "morekpop",
+      "hearts": 4,
       "requesters": [
-        "Juliette GR"
+        "Lumina"
       ],
-      "url": "https://www.youtube.com/watch?v=NcXsK_u4ixI",
+      "url": "https://youtu.be/TI0DGvqKZTI?si=8D8snMNcxxDLgNLT",
       "done_date": null
     },
     {
-      "artist": "Twenty One Pilots",
-      "song": "Downstairs",
-      "tab": "rock",
-      "hearts": 2,
+      "artist": "Wardruna",
+      "song": "Helvegen",
+      "tab": "euro",
+      "hearts": 3,
       "requesters": [
-        "Kagari"
+        "Queen Mistletoe"
       ],
-      "url": "https://youtu.be/zcZMQZbPMxM?si=fsySGS0lRTFtx30q",
-      "done_date": null
+      "url": "https://youtu.be/_gM2tn2gXLw?si=1wO5d8ksLBT_hWQU",
+      "done_date": "2025-10-30"
     },
     {
-      "artist": "Kidd Voodoo",
-      "song": "Confortas pero dañas",
+      "artist": "LP",
+      "song": "Lost on You",
       "tab": "other",
-      "hearts": 2,
+      "hearts": 3,
       "requesters": [
-        "Kagari"
+        "cashette"
       ],
-      "url": "https://youtu.be/h7PYIgQgbII?si=vwjSueANZasc52Kr",
+      "url": "https://youtu.be/wDjeBNv6ip0?si=iPtML-Lh3-RxVz_c",
       "done_date": null
     },
     {
-      "artist": "Jeff Satur x TIMETHAI",
-      "song": "Golden night",
+      "artist": "Faouzia",
+      "song": "Porcelain",
       "tab": "other",
-      "hearts": 2,
+      "hearts": 3,
       "requesters": [
-        "Cristina Tiloca"
+        "MB"
       ],
-      "url": "https://www.youtube.com/watch?v=mX0kv32_XWk&pp=ygUPamVmZiBzYXR1ciBsaXZl",
+      "url": "https://youtu.be/tg95iQIm3NA?si=dfBTkK0yI5nJQm9_",
       "done_date": null
     },
     {
-      "artist": "ShiaBun",
-      "song": "Dance the Night Away",
-      "tab": "vtuber",
-      "hearts": 2,
-      "requesters": [
-        "Hmhya"
-      ],
-      "url": "https://www.youtube.com/watch?v=jBqtNYLfCAA",
-      "done_date": null
-    },
-    {
-      "artist": "Mother Mother",
-      "song": "Mouth Of The Devil",
-      "tab": "rock",
-      "hearts": 2,
-      "requesters": [
-        "Hmhya"
-      ],
-      "url": "https://www.youtube.com/watch?v=8d2CViK6pKk",
-      "done_date": null
-    },
-    {
-      "artist": "Olivia Rodrigo",
-      "song": "The Cure",
+      "artist": "Faouzia",
+      "song": "Stripped: Live in Concert",
       "tab": "other",
-      "hearts": 2,
+      "hearts": 3,
       "requesters": [
-        "Jevon Kasitch"
+        "MB"
       ],
-      "url": "https://www.youtube.com/watch?v=LJTZXZWxEAY",
+      "url": "https://youtu.be/vnCi_QV2J48?si=1HkTAMb-4yx3wB5C",
       "done_date": null
     },
     {
-      "artist": "Stack",
-      "song": "Good Nightmare",
-      "tab": "jpop",
-      "hearts": 2,
-      "requesters": [
-        "keta"
-      ],
-      "url": "https://youtu.be/UlV3VKnXDFM",
-      "done_date": null
-    },
-    {
-      "artist": "Wolpis Carter",
-      "song": "Asu no Yozora Shoukaihan",
-      "tab": "jpop",
-      "hearts": 2,
-      "requesters": [
-        "PlayChris310"
-      ],
-      "url": "https://www.youtube.com/watch?v=Q91yh1VwxaU",
-      "done_date": null
-    },
-    {
-      "artist": "Eric Nam",
-      "song": "Wildfire",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/VDveYoETsKM?si=GCGTIUlWcmGpK87A",
-      "done_date": null
-    },
-    {
-      "artist": "NewJeans",
-      "song": "Attention",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Feli"
-      ],
-      "url": "https://youtu.be/js1CtxSY38I?si=lQ_ickyBfY7zz6Nd",
-      "done_date": null
-    },
-    {
-      "artist": "aespa",
-      "song": "Black Mamba",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/ZeerrnuLi5E?is=PXTlf_nOWoiKo07J",
-      "done_date": null
-    },
-    {
-      "artist": "Jay",
-      "song": "Blue Moon",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "LadyyGreyy"
-      ],
-      "url": "https://youtu.be/aFNCqUjz-lM?si=hF-21KKuX6BS9XCi",
-      "done_date": null
-    },
-    {
-      "artist": "XLOV",
-      "song": "I'mma Be",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Peach"
-      ],
-      "url": "https://youtu.be/bgblQb-XFFY",
-      "done_date": null
-    },
-    {
-      "artist": "Forestella",
-      "song": "Time in a Bottle",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Brent Johnson"
-      ],
-      "url": "https://www.youtube.com/watch?v=rJ6bVs1_058",
-      "done_date": null
-    },
-    {
-      "artist": "Woosung",
-      "song": "Day That I Died",
-      "tab": "rock",
-      "hearts": 2,
-      "requesters": [
-        "Mamabear0T8"
-      ],
-      "url": "https://www.youtube.com/watch?v=4vLS0K3TcLw",
-      "done_date": null
-    },
-    {
-      "artist": "Taeyeon",
-      "song": "Killing Voice",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Zephyr"
-      ],
-      "url": "https://www.youtube.com/watch?v=5ch94AaPZRQ",
-      "done_date": null
-    },
-    {
-      "artist": "Red Velvet",
-      "song": "One of These Nights",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Tung Le"
-      ],
-      "url": "https://youtu.be/9xWiro_tS1k?si=c9X-OVW-aMe2feMy",
-      "done_date": null
-    },
-    {
-      "artist": "Red Velvet",
-      "song": "Peek a Boo",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/6uJf2IT2Zh8?list=RD6uJf2IT2Zh8",
-      "done_date": null
-    },
-    {
-      "artist": "Xikers",
-      "song": "Okay",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Franzi"
-      ],
-      "url": "https://www.youtube.com/watch?v=TU-yT_uMTic&list=RDTU-yT_uMTic&start_radio=1",
-      "done_date": null
-    },
-    {
-      "artist": "Kang Daniel",
-      "song": "Antidote",
-      "tab": "morekpop",
-      "hearts": 2,
-      "requesters": [
-        "Zaphne"
-      ],
-      "url": "https://youtu.be/7utqrPC090c?si=1sQz7cCU2pt75fuz",
-      "done_date": null
-    },
-    {
-      "artist": "Todoroki Hajime",
-      "song": "Chachamonya",
-      "tab": "vtuber",
-      "hearts": 1,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=erTbmrY9nUs",
-      "done_date": null
-    },
-    {
-      "artist": "Amane Kanata",
-      "song": "Last Resort",
-      "tab": "vtuber",
-      "hearts": 1,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=Ohf-kbf6cR4",
-      "done_date": null
-    },
-    {
-      "artist": "Usada Pekora and Hakos Baelz",
-      "song": "Hide and Seek",
-      "tab": "vtuber",
-      "hearts": 1,
-      "requesters": [
-        "ST"
-      ],
-      "url": "https://www.youtube.com/watch?v=uyvzNXTaM4w",
-      "done_date": null
-    },
-    {
-      "artist": "Matt Masson",
-      "song": "Hallucinogenics",
+      "artist": "HomeFree",
+      "song": "Northwest Passage",
       "tab": "other",
-      "hearts": 1,
+      "hearts": 3,
       "requesters": [
-        "Sara Murphy"
+        "Ms. Chuck Terry"
       ],
-      "url": "https://youtu.be/doRUhDIB29s?si=XU0sGgVQw5W5_M4G",
-      "done_date": null
-    },
-    {
-      "artist": "Better Call Saul Cast",
-      "song": "Something Stupid",
-      "tab": "other",
-      "hearts": 1,
-      "requesters": [
-        "Hyperion"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "SpaceAcre and Juju",
-      "song": "Pathogen",
-      "tab": "other",
-      "hearts": 1,
-      "requesters": [
-        "Torie"
-      ],
-      "url": "https://www.youtube.com/watch?v=Bb_Qi1fD-fk&list=PLmyAV2byPRxicWo7eT9XAUwudZTu90OYL&index=103",
-      "done_date": null
-    },
-    {
-      "artist": "The Rose",
-      "song": "Baby",
-      "tab": "rock",
-      "hearts": 1,
-      "requesters": [
-        "KJMx"
-      ],
-      "url": null,
-      "done_date": null
-    },
-    {
-      "artist": "Milo J, Santino, Yami",
-      "song": "Tus vueltas + Carencias de cordura",
-      "tab": "other",
-      "hearts": 1,
-      "requesters": [
-        "Kagari"
-      ],
-      "url": "https://youtu.be/GnCuqVX2HEQ?si=ESQORvRMzrXXhFj_",
-      "done_date": null
-    },
-    {
-      "artist": "SLAVE.V-V-R ft. Hatsune Miku",
-      "song": "Nh-Uh-Uh.",
-      "tab": "jpop",
-      "hearts": 1,
-      "requesters": [
-        "keta"
-      ],
-      "url": "https://youtu.be/ZDfedFXfb3w",
-      "done_date": null
-    },
-    {
-      "artist": "eaJ",
-      "song": "when the rain stops",
-      "tab": "other",
-      "hearts": 1,
-      "requesters": [
-        "Franzi"
-      ],
-      "url": "https://www.youtube.com/watch?v=vM1W264cs4o&list=RDvM1W264cs4o&start_radio=1",
-      "done_date": null
-    },
-    {
-      "artist": "SymaG",
-      "song": "Onomatopeten Shi",
-      "tab": "jpop",
-      "hearts": 1,
-      "requesters": [
-        "H. E."
-      ],
-      "url": "https://www.youtube.com/watch?v=-GXja4e5q-U",
-      "done_date": null
-    },
-    {
-      "artist": "Billlie",
-      "song": "B'yond Me",
-      "tab": "morekpop",
-      "hearts": 1,
-      "requesters": [
-        "TexasTortle"
-      ],
-      "url": "https://youtu.be/J79-FHvIB44?si=k4ixpDIPJWra2V95",
-      "done_date": null
-    },
-    {
-      "artist": "Wonho",
-      "song": "What Would You Do",
-      "tab": "morekpop",
-      "hearts": 1,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/f4VhwarQc6M?si=mHifKhiQ4sxS28Ok",
+      "url": "https://youtu.be/OdIiDu_8IP0",
       "done_date": null
     },
     {
       "artist": "FTISLAND",
       "song": "Serious",
       "tab": "morekpop",
-      "hearts": 1,
+      "hearts": 3,
       "requesters": [
-        "Amy ✨️"
+        "blkrose_22"
       ],
-      "url": "https://youtu.be/pnrmW_Man7I?si=yUJHYF9fiDZGoR7B",
+      "url": "https://youtu.be/pnrmW_Man7I?si=egBBRkcu-rzhUs02",
       "done_date": null
     },
     {
-      "artist": "Forestella",
-      "song": "Snow-Globe",
-      "tab": "morekpop",
-      "hearts": 1,
+      "artist": "Unleash the Archers",
+      "song": "Tonight We Ride",
+      "tab": "rock",
+      "hearts": 3,
       "requesters": [
-        "J. F."
+        "Jamie Wirth"
       ],
-      "url": "https://www.youtube.com/watch?v=mzi3PCrMGa0",
+      "url": "https://youtu.be/UOvZKJlrtk8?si=nhSLKFRCQi9norfe",
+      "done_date": null
+    },
+    {
+      "artist": "Devin Townsend",
+      "song": "Kingdom",
+      "tab": "rock",
+      "hearts": 3,
+      "requesters": [
+        "Jamie Wirth"
+      ],
+      "url": "https://youtu.be/nubJjB95VdY?si=RxcZjMR1bm9NcrkH",
+      "done_date": null
+    },
+    {
+      "artist": "Black Pumas",
+      "song": "Colors",
+      "tab": "other",
+      "hearts": 3,
+      "requesters": [
+        "Jamie Wirth"
+      ],
+      "url": "https://youtu.be/pbyyRCr60Q8?si=DBUb7XyGl7YRQjIf",
+      "done_date": null
+    },
+    {
+      "artist": "Bad Bunny",
+      "song": "TURiSTA",
+      "tab": "other",
+      "hearts": 3,
+      "requesters": [
+        "tai"
+      ],
+      "url": "https://youtu.be/H7-7TXXnw8I?si=d0p2mF0BKW-qu_9H",
+      "done_date": null
+    },
+    {
+      "artist": "Alter Bridge",
+      "song": "catalog",
+      "tab": "rock",
+      "hearts": 3,
+      "requesters": [
+        "Alain Donais"
+      ],
+      "url": "https://www.youtube.com/watch?v=JUh8NOTW1Ws",
+      "done_date": null
+    },
+    {
+      "artist": "Beyond the Black",
+      "song": "Shine and Shade",
+      "tab": "rock",
+      "hearts": 3,
+      "requesters": [
+        "Gaye McCullough"
+      ],
+      "url": "https://youtu.be/DDCAFR4rIk8?si=GaRForcd69PjUpKi",
+      "done_date": "2026-01-09"
+    },
+    {
+      "artist": "The Stupendium",
+      "song": "Adequate Wordsmith",
+      "tab": "game",
+      "hearts": 3,
+      "requesters": [
+        "Silent Optimist"
+      ],
+      "url": "https://m.youtube.com/watch?v=6Dm5trEo9ow&pp=ygUSYWRlcXVhdGUgd29yZHNtaXRo",
+      "done_date": null
+    },
+    {
+      "artist": "Mrs. GREEN APPLE",
+      "song": "A Priori",
+      "tab": "jpop",
+      "hearts": 3,
+      "requesters": [
+        "neZiiak"
+      ],
+      "url": "https://www.youtube.com/watch?v=atJbRXERvH8",
+      "done_date": null
+    },
+    {
+      "artist": "Bo Burnham",
+      "song": "INSIDE",
+      "tab": "other",
+      "hearts": 3,
+      "requesters": [
+        "LaurenAnne"
+      ],
+      "url": "https://youtu.be/1Rx_p3NW7gQ?si=df1SK930P8p9wsEx",
+      "done_date": null
+    },
+    {
+      "artist": "Nemophila",
+      "song": "catalog",
+      "tab": "jpop",
+      "hearts": 3,
+      "requesters": [
+        "Oleg Kaminsky"
+      ],
+      "url": "https://youtu.be/078bfJD5TSw?si=0ih_oahhxDB_PRAb",
+      "done_date": null
+    },
+    {
+      "artist": "Alex Brightman",
+      "song": "The Whole Being Dead Thing",
+      "tab": "other",
+      "hearts": 3,
+      "requesters": [
+        "Sage"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "The Dead South",
+      "song": "In Hell I'll Be In Good Company",
+      "tab": "rock",
+      "hearts": 3,
+      "requesters": [
+        "Jacob Thomas"
+      ],
+      "url": "https://www.youtube.com/watch?v=B9FzVhw8_bY",
+      "done_date": null
+    },
+    {
+      "artist": "The Prince of Egypt Cast",
+      "song": "The Prince of Egypt",
+      "tab": "other",
+      "hearts": 3,
+      "requesters": [
+        "cashette"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Next to Normal Cast",
+      "song": "Next to Normal",
+      "tab": "other",
+      "hearts": 3,
+      "requesters": [
+        "RecentlyLydia"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "BTS",
+      "song": "Film Out",
+      "tab": "bts",
+      "hearts": 3,
+      "requesters": [
+        "Kristine"
+      ],
+      "url": "https://youtu.be/nUB-RHXvWDE?si=Mq596NF6StAR_tP0",
+      "done_date": null
+    },
+    {
+      "artist": "Mon Laferte",
+      "song": "Tu Falta de Querer",
+      "tab": "other",
+      "hearts": 3,
+      "requesters": [
+        "Scarlett"
+      ],
+      "url": "https://youtu.be/5R1RGl4WQP8?si=28VIcSURcYSPcjRY",
+      "done_date": null
+    },
+    {
+      "artist": "Masayoshi Soken",
+      "song": "FFXIV OST",
+      "tab": "game",
+      "hearts": 3,
+      "requesters": [
+        "Ryan Jones"
+      ],
+      "url": "https://www.youtube.com/watch?v=I4O5CVvwgFI&list=",
+      "done_date": null
+    },
+    {
+      "artist": "EJAE",
+      "song": "In Another World",
+      "tab": "morekpop",
+      "hearts": 3,
+      "requesters": [
+        "Benoit Langevin"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Miracle of Sound",
+      "song": "catalog",
+      "tab": "game",
+      "hearts": 3,
+      "requesters": [
+        "MikeTW",
+        "Morsesnox"
+      ],
+      "url": "https://youtu.be/jxptIpCYAJA?si=_EiljJS2cBsYpxHP]",
+      "done_date": null
+    },
+    {
+      "artist": "My Chemical Romance",
+      "song": "The Black Parade Is Dead! concert",
+      "tab": "rock",
+      "hearts": 2,
+      "requesters": [
+        "Scarlett"
+      ],
+      "url": null,
       "done_date": null
     },
     {
       "artist": "Red Velvet",
-      "song": "RBB (Really Bad Boy)",
+      "song": "Killing Voice",
       "tab": "morekpop",
-      "hearts": 1,
+      "hearts": 2,
       "requesters": [
-        "Dani"
+        "Rye"
       ],
-      "url": "https://youtu.be/IWJUPY-2EIM?list=RDlikYKQXBLbw",
+      "url": "https://youtu.be/KEFNlx4ZIOU?si=fxgRdagsU-M_Lh9I",
+      "done_date": "2026-05-21"
+    },
+    {
+      "artist": "BUCK-TICK",
+      "song": "Tightrope",
+      "tab": "jpop",
+      "hearts": 2,
+      "requesters": [
+        "Marissa"
+      ],
+      "url": "https://youtu.be/_DKphKntRMI?si=Mchej-MEgRlHwPH-",
       "done_date": null
     },
     {
-      "artist": "Woosung",
-      "song": "Lazy",
-      "tab": "rock",
-      "hearts": 1,
+      "artist": "BUCK-TICK",
+      "song": "Coyote",
+      "tab": "jpop",
+      "hearts": 2,
       "requesters": [
-        "blkrose_22"
+        "Marissa"
       ],
-      "url": "https://youtu.be/3YFZyOpF7tU?si=GPWbMPMS8JfW1REX",
+      "url": "https://youtu.be/vmSy4K6IZqc?si=6TjWz4l7TU4exDir",
       "done_date": null
     },
     {
-      "artist": "NEXZ",
-      "song": "Mmchk",
-      "tab": "morekpop",
-      "hearts": 1,
+      "artist": "BUCK-TICK",
+      "song": "Dress",
+      "tab": "jpop",
+      "hearts": 2,
       "requesters": [
-        "Kristina F Harris"
+        "Lumina"
       ],
-      "url": "https://youtu.be/PIgmxjozeCU?si=-TIQ5qHSvOom8MlU",
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Faouzia",
+      "song": "You Don't Even Know Me",
+      "tab": "other",
+      "hearts": 2,
+      "requesters": [
+        "Bella .M"
+      ],
+      "url": "https://youtu.be/VaBRY6PYNLI",
+      "done_date": null
+    },
+    {
+      "artist": "Six",
+      "song": "catalog",
+      "tab": "other",
+      "hearts": 2,
+      "requesters": [
+        "Khanh-Dan Tran-kiem"
+      ],
+      "url": "https://youtu.be/vkzlU2fDLs8?t=231",
+      "done_date": null
+    },
+    {
+      "artist": "Voice of Baceprot",
+      "song": "catalog",
+      "tab": "other",
+      "hearts": 2,
+      "requesters": [
+        "Daniel Petersen"
+      ],
+      "url": "https://youtu.be/K7cCiMLHymE?si=z7vN-HV3yiA6MtQL",
+      "done_date": null
+    },
+    {
+      "artist": "Gabriel Mann and Randy Crenshaw",
+      "song": "Biggering",
+      "tab": "other",
+      "hearts": 2,
+      "requesters": [
+        "Nite24"
+      ],
+      "url": "https://youtu.be/cpyuolKoeAY?si=yzqSijtKPVL6vuAH",
+      "done_date": null
+    },
+    {
+      "artist": "Neurosama",
+      "song": "Never",
+      "tab": "vtuber",
+      "hearts": 2,
+      "requesters": [
+        "Caleb Martin"
+      ],
+      "url": "https://youtu.be/CKCgoEGiUEg?si=5PaHxyhikzqba-z0",
+      "done_date": "2026-02-11"
+    },
+    {
+      "artist": "Haechan",
+      "song": "CRZY",
+      "tab": "morekpop",
+      "hearts": 2,
+      "requesters": [
+        "Luke_D"
+      ],
+      "url": "https://youtu.be/pqMCgfnBx74?si=DFC2b_ifaXs05Oiq",
+      "done_date": null
+    },
+    {
+      "artist": "The Gathering",
+      "song": "Travel",
+      "tab": "euro",
+      "hearts": 2,
+      "requesters": [
+        "Hans Reese"
+      ],
+      "url": "https://youtu.be/Y46Lft_BZxo?si=mICqsf7u4E-0WrN1",
+      "done_date": null
+    },
+    {
+      "artist": "Hiroyuki Sawano",
+      "song": "Attack on Titan Suite",
+      "tab": "anime",
+      "hearts": 2,
+      "requesters": [
+        "Kalisa Fox"
+      ],
+      "url": "https://www.youtube.com/watch?v=a6Fl1Xl1ogg",
+      "done_date": "2025-12-17"
+    },
+    {
+      "artist": "Eurovision",
+      "song": "catalog",
+      "tab": "euro",
+      "hearts": 2,
+      "requesters": [
+        "cashette"
+      ],
+      "url": null,
       "done_date": null
     },
     {
       "artist": "Woodz",
-      "song": "Archive 1",
+      "song": "Love Me Harder",
       "tab": "morekpop",
-      "hearts": 1,
+      "hearts": 2,
       "requesters": [
-        "Kristina F Harris"
+        "Maria"
       ],
-      "url": "https://youtube.com/playlist?list=PLr04w22Q1DLbfxwoZ39R7AXxOZQtzNl52&si=bep9Nt9fV4I_TYg2",
+      "url": "https://youtu.be/HaqhQs5lBWE?si=ZUFeBrdu2SxBg6sw",
       "done_date": null
     },
     {
-      "artist": "Balming Tiger",
-      "song": "Keep On",
-      "tab": "morekpop",
-      "hearts": 1,
-      "requesters": [
-        "Marcus A Campbell"
-      ],
-      "url": "https://youtu.be/OUQ6NV9r2Lk?si=MADa3SipfPGAfp1k",
-      "done_date": null
-    },
-    {
-      "artist": "Minami",
-      "song": "catalog",
+      "artist": "chogakusei",
+      "song": "in the backroom",
       "tab": "jpop",
-      "hearts": 0,
+      "hearts": 2,
       "requesters": [
-        "PlayChris310"
+        "Rona Yoshida"
+      ],
+      "url": "https://youtu.be/xqOj0TZ5cyQ?si=vcLnBBwAPuLnbawI",
+      "done_date": null
+    },
+    {
+      "artist": "Lola Young",
+      "song": "Spiders",
+      "tab": "rock",
+      "hearts": 2,
+      "requesters": [
+        "Shannon"
+      ],
+      "url": "https://youtu.be/fqMYSu7KSKM?si=_kddBTc_MyR4Q6UA",
+      "done_date": null
+    },
+    {
+      "artist": "Jeremy Jordan",
+      "song": "catalog",
+      "tab": "other",
+      "hearts": 2,
+      "requesters": [
+        "Ace_Space13"
+      ],
+      "url": "https://youtu.be/chkOkcEFGM0?si=hP75OauIvNcXvtn-",
+      "done_date": null
+    },
+    {
+      "artist": "JoJo's Bizarre Adventure",
+      "song": "Openings",
+      "tab": "anime",
+      "hearts": 2,
+      "requesters": [
+        "Scarlett"
+      ],
+      "url": "https://youtu.be/o28852--bFE?si=B9-TmjIqb49FNDCB",
+      "done_date": null
+    },
+    {
+      "artist": "31 Minutos",
+      "song": "Tiny Desk",
+      "tab": "other",
+      "hearts": 2,
+      "requesters": [
+        "Scarlett"
+      ],
+      "url": "https://youtu.be/UEqTIwRrWvA?si=Y_GKMwhr1_09X--K",
+      "done_date": null
+    },
+    {
+      "artist": "ATEEZ",
+      "song": "GOLDEN HOUR: Part 3 In Your Fantasy Version",
+      "tab": "ateez",
+      "hearts": 2,
+      "requesters": [
+        "KaitThaRougarou"
       ],
       "url": null,
       "done_date": null
     },
     {
-      "artist": "Megatera Zero",
-      "song": "catalog",
+      "artist": "Nemo",
+      "song": "The Code",
+      "tab": "euro",
+      "hearts": 1,
+      "requesters": [
+        "Bread"
+      ],
+      "url": "https://youtu.be/kiGDvM14Kwg?si=D9YLnLOAIvZVwgHC",
+      "done_date": null
+    },
+    {
+      "artist": "Yoh Kamiyama",
+      "song": "YELLOW",
       "tab": "jpop",
-      "hearts": 0,
+      "hearts": 1,
+      "requesters": [
+        "Bread"
+      ],
+      "url": "https://youtu.be/1_lap6dzSUc?si=ZI-JfobnmwDldl4g",
+      "done_date": null
+    },
+    {
+      "artist": "Old Gods of Asgard",
+      "song": "Herald of Darkness",
+      "tab": "game",
+      "hearts": 1,
+      "requesters": [
+        "Joey Leitner"
+      ],
+      "url": "https://youtu.be/uxs_HYw_mLk?si=3oQBk7dxAOaHrTlr",
+      "done_date": null
+    },
+    {
+      "artist": "Ahn Ye Eun",
+      "song": "Changgwi",
+      "tab": "morekpop",
+      "hearts": 1,
+      "requesters": [
+        "Lumina"
+      ],
+      "url": "https://youtu.be/zcyn9HZZ6vs?si=X4B_L4levTP2ox96",
+      "done_date": null
+    },
+    {
+      "artist": "One OK Rock",
+      "song": "Take What You Want (Live 2018)",
+      "tab": "jpop",
+      "hearts": 1,
+      "requesters": [
+        "Jamie Wirth"
+      ],
+      "url": "https://youtu.be/akt5U9pEBjM?si=opZ8QvcZPH24LMzw",
+      "done_date": null
+    },
+    {
+      "artist": "Jairo",
+      "song": "catalog",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Cole Bace"
+      ],
+      "url": "https://youtu.be/66bFqTcRhlA?si=OtkBoNcQgwoTHACD",
+      "done_date": null
+    },
+    {
+      "artist": "Lara Fabian & Johnny Hallyday",
+      "song": "Requiem pour un fou",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Jón Davíðsson"
+      ],
+      "url": "https://youtu.be/zR1rkt_0biA?si=vtE-15hPzauFPAPz",
+      "done_date": null
+    },
+    {
+      "artist": "Amigo the Devil",
+      "song": "Another Man's Grave",
+      "tab": "rock",
+      "hearts": 1,
+      "requesters": [
+        "Rich Bowers"
+      ],
+      "url": "https://youtu.be/4RukZXYTISQ?si=AluK6ItMCnoL27aD",
+      "done_date": null
+    },
+    {
+      "artist": "Postmodern Jukebox",
+      "song": "Whitney Houston cover",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Torie"
+      ],
+      "url": "https://www.youtube.com/watch?v=X2ls_NGP2jY&list=PLJZH8sevmMq6Ao3BUvP3FDOq1CrUxP9-r&index=46",
+      "done_date": null
+    },
+    {
+      "artist": "Heilung",
+      "song": "Anoana",
+      "tab": "euro",
+      "hearts": 1,
+      "requesters": [
+        "paul rowe"
+      ],
+      "url": "https://youtu.be/SVbc_Fwbt50?si=AK4AHQ7NX7yz1JL0",
+      "done_date": "2025-06-13"
+    },
+    {
+      "artist": "Yaelokre",
+      "song": "Neath the Grove is a Heart",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Cherucha Idc"
+      ],
+      "url": "https://youtu.be/eJSum8E3BtI?si=pxd-zxwFJa-SHFJr",
+      "done_date": null
+    },
+    {
+      "artist": "Erika Hennings",
+      "song": "Happy Day in Hell",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Vara Goli"
+      ],
+      "url": "https://www.youtube.com/watch?v=rVdI7upWfqg&list=RDrVdI7upWfqg&start_radio=1",
+      "done_date": "2025-05-24"
+    },
+    {
+      "artist": "Elizabeth the Musical",
+      "song": "The Last Dance",
+      "tab": "musical",
+      "hearts": 1,
+      "requesters": [
+        "cashette"
+      ],
+      "url": "https://youtu.be/3Q0SzE-Sp74?si=biaLxITJA18JhpZ4",
+      "done_date": null
+    },
+    {
+      "artist": "Unprocessed",
+      "song": "Sacrifice Me",
+      "tab": "rock",
+      "hearts": 1,
+      "requesters": [
+        "Koruny"
+      ],
+      "url": "https://www.youtube.com/watch?v=ivXDVKwzCIw",
+      "done_date": null
+    },
+    {
+      "artist": "Korn",
+      "song": "Freak on a Leash",
+      "tab": "rock",
+      "hearts": 1,
+      "requesters": [
+        "Zachary"
+      ],
+      "url": "https://youtu.be/jRGrNDV2mKc?si=kUSaf8A8qaWKO_VH",
+      "done_date": null
+    },
+    {
+      "artist": "Martti Suosalo",
+      "song": "Yötön Yö",
+      "tab": "game",
+      "hearts": 1,
+      "requesters": [
+        "BassoSovietico1987"
+      ],
+      "url": "https://www.youtube.com/watch?v=fQAVUpCGM0I&list=RDfQAVUpCGM0I&start_radio=1",
+      "done_date": null
+    },
+    {
+      "artist": "Alex Warren",
+      "song": "Eternity",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Mina"
+      ],
+      "url": "https://www.youtube.com/watch?v=jXqf3uqLkkU",
+      "done_date": null
+    },
+    {
+      "artist": "Hozier",
+      "song": "Francesca",
+      "tab": "rock",
+      "hearts": 1,
+      "requesters": [
+        "KaitThaRougarou"
+      ],
+      "url": "https://youtu.be/K1u_hL11auM?si=JvWPUg1lr-cYxaBb",
+      "done_date": null
+    },
+    {
+      "artist": "Hanabie",
+      "song": "Be the GAL~Early Summer ver.~",
+      "tab": "jpop",
+      "hearts": 1,
+      "requesters": [
+        "RealStickman"
+      ],
+      "url": "https://youtu.be/hTuPwVYHc_M?si=AdZFWN9wRBxrMrCE",
+      "done_date": null
+    },
+    {
+      "artist": "Colm McGuiness",
+      "song": "Now Colly",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Stephanie Merrill"
+      ],
+      "url": "https://www.youtube.com/watch?v=vo20aMvL2oc",
+      "done_date": null
+    },
+    {
+      "artist": "Conan Gray",
+      "song": "Vodka Cranberry",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Angela"
+      ],
+      "url": "https://www.youtube.com/watch?v=Yzbvv8WdP9k",
+      "done_date": null
+    },
+    {
+      "artist": "Ado",
+      "song": "KokoroToIuNaNoFukakai",
+      "tab": "jpop",
+      "hearts": 1,
       "requesters": [
         "PlayChris310"
+      ],
+      "url": "https://www.youtube.com/watch?v=H-UbEcmIKSc",
+      "done_date": null
+    },
+    {
+      "artist": "Wardruna",
+      "song": "Lyfjaberg",
+      "tab": "euro",
+      "hearts": 1,
+      "requesters": [
+        "Emilie Rosenberg"
+      ],
+      "url": "https://youtu.be/VEizKmZlUAw",
+      "done_date": null
+    },
+    {
+      "artist": "Paramore",
+      "song": "After Laughter",
+      "tab": "rock",
+      "hearts": 1,
+      "requesters": [
+        "Rachel"
       ],
       "url": null,
       "done_date": null
     },
     {
-      "artist": "eaJ",
-      "song": "will i ever (day bounce)",
+      "artist": "Epica",
+      "song": "Unleashed",
+      "tab": "rock",
+      "hearts": 1,
+      "requesters": [
+        "Guybrush Threepwood"
+      ],
+      "url": "https://youtu.be/1PXKYeAueUI?si=T3i3MOzeg4ylUFkN",
+      "done_date": null
+    },
+    {
+      "artist": "Ghost",
+      "song": "Mummy Dust",
+      "tab": "rock",
+      "hearts": 1,
+      "requesters": [
+        "Heather O'Bryan"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Aerith",
+      "song": "No Promises to Keep",
+      "tab": "game",
+      "hearts": 1,
+      "requesters": [
+        "Martin Schabatka"
+      ],
+      "url": "https://www.youtube.com/watch?v=uZr337zWYVY",
+      "done_date": null
+    },
+    {
+      "artist": "Benson Boone",
+      "song": "catalog",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Courtney Keith"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Unknown",
+      "song": "Pepsi Man Theme (Lyrical Cover)",
+      "tab": "game",
+      "hearts": 1,
+      "requesters": [
+        "Carl of the Bells"
+      ],
+      "url": "https://youtu.be/Ih-tWFOsv0w?si=YmFBftWgoq4r_wWa",
+      "done_date": null
+    },
+    {
+      "artist": "Zhou Shen",
+      "song": "catalog",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "Gabriel jingle bell"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Asaf Avidan",
+      "song": "catalog",
+      "tab": "other",
+      "hearts": 1,
+      "requesters": [
+        "GrumpyLightworker"
+      ],
+      "url": "https://www.youtube.com/watch?v=CRVO5_K_xLk",
+      "done_date": "2025-10-14"
+    },
+    {
+      "artist": "Answers",
+      "song": "catalog",
       "tab": "other",
       "hearts": 0,
       "requesters": [
-        "Franzi"
+        "iolanthe"
       ],
-      "url": "https://www.youtube.com/watch?v=0nLosPZlp3Q&list=RD0nLosPZlp3Q&start_radio=1",
+      "url": null,
       "done_date": null
     },
     {
-      "artist": "Dayoung",
-      "song": "What's A Girl To Do",
-      "tab": "morekpop",
+      "artist": "Unknown",
+      "song": "Diva Song",
+      "tab": "game",
       "hearts": 0,
       "requesters": [
-        "Sara Murphy"
+        "NeonTheBright"
       ],
-      "url": "https://youtu.be/MfipEXSvtjg?si=eXNYvWlJG7txmz4v",
+      "url": "https://m.youtube.com/watch?v=1KRYjLr7Rxg&pp=ygUYZGl2YSBzb25nIG1vbnN0ZXIgaHVudGVy",
       "done_date": null
     },
     {
-      "artist": "Dayoung",
-      "song": "Body",
-      "tab": "morekpop",
+      "artist": "John Miles",
+      "song": "Music",
+      "tab": "euro",
       "hearts": 0,
       "requesters": [
-        "Sara Murphy"
+        "Eric Sicard"
       ],
-      "url": "https://youtu.be/SJpmNMWboWg?si=hQpHAEaRvOQ4pyCv",
+      "url": "https://youtu.be/3Nz7gtCArOw?si=paKS4wmegWNEFat7",
       "done_date": null
     },
     {
-      "artist": "Jessi",
-      "song": "What Type of X",
-      "tab": "morekpop",
-      "hearts": 0,
-      "requesters": [
-        "Feli"
-      ],
-      "url": "https://youtu.be/OEu1OWf8ezU?si=g1DpKATGXUTfyVjL",
-      "done_date": null
-    },
-    {
-      "artist": "Minnie, Ten",
-      "song": "Obsession",
-      "tab": "morekpop",
-      "hearts": 0,
-      "requesters": [
-        "Dani"
-      ],
-      "url": "https://youtu.be/-pKYsndlSXE?list=RD-pKYsndlSXE",
-      "done_date": null
-    },
-    {
-      "artist": "Forestella",
-      "song": "Now We Are Free",
-      "tab": "morekpop",
-      "hearts": 0,
-      "requesters": [
-        "J. F."
-      ],
-      "url": "https://www.youtube.com/watch?v=F04x3TtFzXA",
-      "done_date": null
-    },
-    {
-      "artist": "NMIXX",
-      "song": "Adore U",
-      "tab": "morekpop",
-      "hearts": 0,
-      "requesters": [
-        "WalkLikeAHuman"
-      ],
-      "url": "https://youtu.be/wLJxO_-vwIQ?si=I9pqIbwTtEAn3el6",
-      "done_date": null
-    },
-    {
-      "artist": "T.O.P",
-      "song": "Studio 54",
-      "tab": "morekpop",
-      "hearts": 0,
-      "requesters": [
-        "Sara Murphy"
-      ],
-      "url": "https://youtu.be/cfaybWG25D4?si=6L8X5SXwTA9ZGRLI",
-      "done_date": null
-    },
-    {
-      "artist": "PITTA",
-      "song": "Be Free",
+      "artist": "The Mediæval Bæbes",
+      "song": "Salva Nos",
       "tab": "other",
       "hearts": 0,
       "requesters": [
-        "Mario Jun González Vázquez"
+        "Winnie Neely"
       ],
-      "url": "https://youtu.be/88PNxQnNPYQ?si=SQsYKvJv8upO2SQQ",
+      "url": "https://youtu.be/QD_ufu-wUFY?si=pQ4P3kPv7rj3GwuM",
       "done_date": null
     },
     {
-      "artist": "Kickflip",
-      "song": "Twenty",
+      "artist": "Les Friction",
+      "song": "Louder than Words",
       "tab": "other",
       "hearts": 0,
       "requesters": [
-        "Franzi"
+        "Cricket"
       ],
-      "url": "https://www.youtube.com/watch?v=Gt0wRAFpwvg&list=RDGt0wRAFpwvg&start_radio=1",
+      "url": "https://youtu.be/6F1d0gW3V30?si=OdvrOMEJlr2MKyz5",
+      "done_date": "2026-02-01"
+    },
+    {
+      "artist": "Unknown",
+      "song": "U",
+      "tab": "other",
+      "hearts": 0,
+      "requesters": [
+        "asllvnx"
+      ],
+      "url": "https://youtu.be/GbGzRMiwu0Y?si=NFgGkRikISGyJILC",
       "done_date": null
     },
     {
-      "artist": "P1Harmony",
-      "song": "Stupid Brain",
-      "tab": "morekpop",
+      "artist": "Dan Wesley & Tori Holub",
+      "song": "Don't Fence Me In",
+      "tab": "euro",
       "hearts": 0,
       "requesters": [
-        "Kristina F Harris"
+        "Joseph Spiegel"
       ],
-      "url": "https://youtu.be/4XMJIQ064dM?si=-yKIBcnet_CvZViH",
+      "url": "https://youtu.be/dAgnttme1DA?si=ZCwug8rI-ykpmypJ",
       "done_date": null
     },
     {
-      "artist": "Eric Nam",
-      "song": "I Wish I Wasn't Me",
+      "artist": "Unknown",
+      "song": "Saiyaara",
+      "tab": "other",
+      "hearts": 0,
+      "requesters": [
+        "Aashi Gupta"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Luxuslarm",
+      "song": "Leb Deine Träume",
+      "tab": "euro",
+      "hearts": 0,
+      "requesters": [
+        "blkrose_22"
+      ],
+      "url": "https://youtu.be/SMonb2lj5RE?si=JkmFes3VVqS-Qq02",
+      "done_date": null
+    },
+    {
+      "artist": "Tool",
+      "song": "Right in Two",
+      "tab": "rock",
+      "hearts": 0,
+      "requesters": [
+        "Thall"
+      ],
+      "url": null,
+      "done_date": null
+    },
+    {
+      "artist": "Steam Powered Giraffe",
+      "song": "Fire Fire",
+      "tab": "other",
+      "hearts": 0,
+      "requesters": [
+        "JaeShiiZou"
+      ],
+      "url": "https://youtu.be/kLNgD5vsZsM?si=7osasj4DkIPCBLN6",
+      "done_date": null
+    },
+    {
+      "artist": "Fifty Fifty",
+      "song": "catalog",
       "tab": "morekpop",
       "hearts": 0,
       "requesters": [
-        "Sara Murphy"
+        "Elodie H"
       ],
-      "url": "https://youtu.be/rIuAAlC5Tvc?si=qZmtA79obSdsAbH7",
+      "url": "https://www.youtube.com/watch?v=yXli1Z181YA",
+      "done_date": null
+    },
+    {
+      "artist": "Dayseeker",
+      "song": "Crying While You're Dancing",
+      "tab": "rock",
+      "hearts": 0,
+      "requesters": [
+        "Keliee"
+      ],
+      "url": "https://www.youtube.com/watch?v=hY9TVwgePxU",
+      "done_date": null
+    },
+    {
+      "artist": "Maid Mint Fantôme",
+      "song": "Toxic",
+      "tab": "vtuber",
+      "hearts": 0,
+      "requesters": [
+        "Hubafet"
+      ],
+      "url": "https://www.youtube.com/watch?v=F4kyR6vAu40",
+      "done_date": null
+    },
+    {
+      "artist": "SB19",
+      "song": "catalog",
+      "tab": "morekpop",
+      "hearts": 0,
+      "requesters": [
+        "Ma Joselyn Santiago"
+      ],
+      "url": "https://www.youtube.com/watch?v=gHoTGkTknIM",
+      "done_date": null
+    },
+    {
+      "artist": "The Struts",
+      "song": "catalog",
+      "tab": "rock",
+      "hearts": 0,
+      "requesters": [
+        "Vintage Vox"
+      ],
+      "url": null,
       "done_date": null
     }
   ]

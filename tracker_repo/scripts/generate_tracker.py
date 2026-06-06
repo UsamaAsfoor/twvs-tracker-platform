@@ -32,6 +32,7 @@ from twvs_heart_count_aggregator import (  # noqa: E402
     _extract_song_title,
     _find_canonical_artist,
     _resolve_song_alias,
+    init_canonical_from_artists,
 )
 
 
@@ -362,6 +363,8 @@ ARTIST_TO_TAB = {
     "Slayyyter": "other",
     "The Curse of the Sad Mummy": "other",
 }
+
+init_canonical_from_artists(ARTIST_TO_TAB)
 
 # Lowercase lookup so categorize() handles varied casing from the heuristic
 # extractor (e.g. "Bao the whale" vs "Bao the Whale").

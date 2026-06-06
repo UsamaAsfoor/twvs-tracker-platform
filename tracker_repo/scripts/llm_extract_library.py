@@ -10,8 +10,18 @@ Cache by title hash (resumable, no double-pay).
 """
 import os, sys, json, csv, glob, time, hashlib, urllib.request, urllib.error
 
-DATA = os.path.expanduser("~/TWVS/data")
-KEY = "".join(open(os.path.join(os.path.dirname(DATA), "anthropic_api_key.txt")).read().split())
+DATA = os.environ.get("TWVS_DATA_DIR", os.path.expanduser("~/TWVS/data"))
+
+def _load_key():
+    k = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if k:
+        return k
+    key_path = os.path.join(os.path.dirname(DATA), "anthropic_api_key.txt")
+    if os.path.isfile(key_path):
+        return "".join(open(key_path).read().split())
+    return ""
+
+KEY = _load_key()
 MODEL = "claude-haiku-4-5-20251001"
 CACHE = os.path.join(DATA, "library_done_cache.json")
 OUT = os.path.join(DATA, "library_done.json")
