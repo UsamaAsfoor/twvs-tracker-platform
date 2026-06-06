@@ -35,6 +35,9 @@ ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "changeme")
 JWT_SECRET = os.environ.get("JWT_SECRET", "dev-secret-change-in-production")
 JWT_EXPIRE_HOURS = int(os.environ.get("JWT_EXPIRE_HOURS", "24"))
 
+PATREON_EMAIL = os.environ.get("PATREON_EMAIL", "").strip()
+PATREON_PASSWORD = os.environ.get("PATREON_PASSWORD", "").strip()
+
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ANTHROPIC_KEY_FILE = Path(
     os.environ.get("ANTHROPIC_KEY_FILE", REPO_ROOT / "anthropic_api_key.txt")

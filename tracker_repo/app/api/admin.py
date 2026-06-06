@@ -12,7 +12,13 @@ from app.config import DATA_DIR, TRACKER_DIR, anthropic_key
 from app.pipeline.jobs import job_store
 from app.pipeline.runner import PIPELINE_STEPS, start_job_async
 from app.pipeline.schedule import schedule_manager
-from app.scraper.patreon import check_session_valid, open_login_browser, session_exists
+from app.scraper.patreon import (
+    check_session_valid,
+    credentials_configured,
+    login_headless,
+    open_login_browser,
+    session_exists,
+)
 
 router = APIRouter(prefix="/api/admin", tags=["admin"])
 
@@ -41,6 +47,7 @@ def admin_status(_: Annotated[str, Depends(require_admin)]) -> dict[str, Any]:
         "patreon_session_exists": session_exists(),
         "patreon_session_valid": valid,
         "patreon_message": session_msg,
+        "patreon_credentials_configured": credentials_configured(),
         "anthropic_key_configured": bool(anthropic_key()),
         "engine_data_updated": engine_path.stat().st_mtime if engine_path.is_file() else None,
         "standalone_updated": standalone.stat().st_mtime if standalone.is_file() else None,
@@ -72,6 +79,37 @@ def start_patreon_login(_: Annotated[str, Depends(require_admin)]) -> LoginStart
     return LoginStartResponse(
         job_id=job.id,
         message="Browser opened. Log into Patreon with email + password, then wait for confirmation.",
+    )
+
+
+@router.post("/patreon/login-headless")
+def start_patreon_login_headless(_: Annotated[str, Depends(require_admin)]) -> LoginStartResponse:
+    if not credentials_configured():
+        raise HTTPException(
+            400,
+            "Set PATREON_EMAIL and PATREON_PASSWORD as Fly secrets before using headless login.",
+        )
+
+    job = job_store.create(kind="patreon_login_headless", steps=["login"])
+
+    def _run() -> None:
+        from app.pipeline.jobs import JobStatus
+        from datetime import datetime, timezone
+
+        job_store.update(job.id, status=JobStatus.RUNNING)
+        ok, msg = login_headless(log=lambda m: job_store.append_log(job.id, m))
+        job_store.update(
+            job.id,
+            status=JobStatus.SUCCESS if ok else JobStatus.FAILED,
+            error=None if ok else msg,
+            finished_at=datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        )
+        job_store.append_log(job.id, msg)
+
+    threading.Thread(target=_run, daemon=True).start()
+    return LoginStartResponse(
+        job_id=job.id,
+        message="Headless Patreon login started. Watch the job log for progress.",
     )
 
 

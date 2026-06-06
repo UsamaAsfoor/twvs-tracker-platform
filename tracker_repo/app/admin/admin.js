@@ -78,9 +78,24 @@ function renderSteps(available) {
     .join('');
 }
 
+function renderPatreonControls(data) {
+  const headlessBtn = document.getElementById('login-patreon-headless-btn');
+  const hint = document.getElementById('session-hint');
+  if (data.patreon_credentials_configured) {
+    headlessBtn.classList.remove('hidden');
+    hint.textContent =
+      'On Fly.io use "Seed session (headless)". Locally you can open the browser window instead. Email + password only (not Google/GitHub).';
+  } else {
+    headlessBtn.classList.add('hidden');
+    hint.textContent =
+      'A Chromium window opens. Log in with email + password (not Google). On Fly.io, set PATREON_EMAIL and PATREON_PASSWORD secrets first.';
+  }
+}
+
 function renderSystemStatus(data) {
   const ul = document.getElementById('system-status');
   ul.innerHTML = `
+    <li><strong>Patreon creds:</strong> ${data.patreon_credentials_configured ? 'Configured (headless login available)' : 'Not set on server'}</li>
     <li><strong>API key:</strong> ${data.anthropic_key_configured ? 'Configured' : 'Not set (LLM steps will skip)'}</li>
     <li><strong>Engine data:</strong> ${data.engine_data_updated ? fmtFileTime(data.engine_data_updated) : 'Not built yet'}</li>
     <li><strong>Published frontend:</strong> ${data.standalone_updated ? fmtFileTime(data.standalone_updated) : 'Not published yet'}</li>
@@ -125,6 +140,7 @@ function renderJobs(jobs) {
 async function refreshDashboard() {
   const data = await api('/api/admin/status');
   setSessionPill(data.patreon_session_valid, data.patreon_message);
+  renderPatreonControls(data);
   renderSteps(data.available_steps);
   renderSystemStatus(data);
 
@@ -186,6 +202,13 @@ document.getElementById('login-patreon-btn').addEventListener('click', async () 
   const data = await api('/api/admin/patreon/login', { method: 'POST' });
   alert(data.message);
   activeJobId = data.job_id;
+});
+
+document.getElementById('login-patreon-headless-btn').addEventListener('click', async () => {
+  const data = await api('/api/admin/patreon/login-headless', { method: 'POST' });
+  alert(data.message);
+  activeJobId = data.job_id;
+  await refreshDashboard();
 });
 
 document.getElementById('refresh-session-btn').addEventListener('click', () => refreshDashboard());

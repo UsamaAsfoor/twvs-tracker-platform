@@ -5,8 +5,51 @@ import time
 from pathlib import Path
 from typing import Callable, Optional
 
-from app.config import SESSION_DIR, ensure_dirs
+from app.config import PATREON_EMAIL, PATREON_PASSWORD, SESSION_DIR, ensure_dirs
 from app.pipeline.paths import patch_collector_module
+
+_CHROMIUM_ARGS = ["--disable-blink-features=AutomationControlled"]
+_VIEWPORT = {"width": 1280, "height": 900}
+
+
+def _logged_in(page) -> bool:
+    url = page.url.lower()
+    return "login" not in url and "auth" not in url
+
+
+def _fill_first(page, selectors: list[str], value: str) -> bool:
+    for selector in selectors:
+        try:
+            field = page.locator(selector).first
+            if field.count() and field.is_visible(timeout=2000):
+                field.fill(value)
+                return True
+        except Exception:
+            continue
+    return False
+
+
+def _click_first(page, selectors: list[str]) -> bool:
+    for selector in selectors:
+        try:
+            button = page.locator(selector).first
+            if button.count() and button.is_visible(timeout=2000):
+                button.click()
+                return True
+        except Exception:
+            continue
+    return False
+
+
+def _launch_context(playwright, *, headless: bool):
+    collector = patch_collector_module()
+    collector.ensure_dirs()
+    return playwright.chromium.launch_persistent_context(
+        user_data_dir=str(SESSION_DIR),
+        headless=headless,
+        viewport=_VIEWPORT,
+        args=_CHROMIUM_ARGS,
+    )
 
 
 def session_exists() -> bool:
@@ -32,22 +75,113 @@ def check_session_valid() -> tuple[bool, str]:
 
     try:
         with sync_playwright() as p:
-            context = p.chromium.launch_persistent_context(
-                user_data_dir=str(SESSION_DIR),
-                headless=True,
-                viewport={"width": 1280, "height": 900},
-                args=["--disable-blink-features=AutomationControlled"],
-            )
+            context = _launch_context(p, headless=True)
             page = context.pages[0] if context.pages else context.new_page()
             page.goto("https://www.patreon.com/home", wait_until="domcontentloaded", timeout=60000)
             time.sleep(2)
-            url = page.url.lower()
+            logged_in = _logged_in(page)
             context.close()
-            if "login" in url or "auth" in url:
+            if not logged_in:
                 return False, "Session expired — log in to Patreon again."
             return True, "Patreon session is valid."
     except Exception as exc:
         return False, f"Session check failed: {exc}"
+
+
+def login_with_credentials(
+    email: str,
+    password: str,
+    log: Optional[Callable[[str], None]] = None,
+) -> tuple[bool, str]:
+    """Headless Patreon login using email + password (for servers without a display)."""
+    _log = log or (lambda _m: None)
+
+    if not email or not password:
+        return False, "Patreon email and password are required."
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return False, "Playwright not installed."
+
+    ensure_dirs()
+    _log("Starting headless Patreon login…")
+
+    email_selectors = [
+        'input[type="email"]',
+        'input[name="email"]',
+        'input[autocomplete="email"]',
+        "#email",
+    ]
+    password_selectors = [
+        'input[type="password"]',
+        'input[name="password"]',
+        'input[autocomplete="current-password"]',
+        "#password",
+    ]
+    submit_selectors = [
+        'button[type="submit"]',
+        'button:has-text("Log in")',
+        'button:has-text("Continue")',
+        'button:has-text("Sign in")',
+    ]
+
+    try:
+        with sync_playwright() as p:
+            context = _launch_context(p, headless=True)
+            page = context.pages[0] if context.pages else context.new_page()
+            page.goto("https://www.patreon.com/login", wait_until="domcontentloaded", timeout=60000)
+            time.sleep(2)
+
+            if _logged_in(page):
+                context.close()
+                return True, "Already logged in. Session saved."
+
+            _log("Entering Patreon email…")
+            if not _fill_first(page, email_selectors, email):
+                context.close()
+                return False, "Could not find Patreon email field."
+            _click_first(page, submit_selectors)
+            time.sleep(2)
+
+            _log("Entering Patreon password…")
+            deadline = time.time() + 30
+            password_ready = False
+            while time.time() < deadline:
+                if _fill_first(page, password_selectors, password):
+                    password_ready = True
+                    break
+                time.sleep(1)
+
+            if not password_ready:
+                context.close()
+                return False, "Could not find Patreon password field."
+
+            _click_first(page, submit_selectors)
+            _log("Submitting login…")
+
+            deadline = time.time() + 60
+            while time.time() < deadline:
+                time.sleep(2)
+                if _logged_in(page):
+                    _log("Login successful — saving session.")
+                    time.sleep(2)
+                    context.close()
+                    return True, "Patreon login successful. Session saved."
+
+            context.close()
+            return False, "Login timed out — check credentials or complete any verification step."
+    except Exception as exc:
+        return False, f"Headless login failed: {exc}"
+
+
+def login_headless(log: Optional[Callable[[str], None]] = None) -> tuple[bool, str]:
+    """Login using PATREON_EMAIL / PATREON_PASSWORD env vars."""
+    return login_with_credentials(PATREON_EMAIL, PATREON_PASSWORD, log=log)
+
+
+def credentials_configured() -> bool:
+    return bool(PATREON_EMAIL and PATREON_PASSWORD)
 
 
 def open_login_browser(log: Optional[Callable[[str], None]] = None):
@@ -65,20 +199,14 @@ def open_login_browser(log: Optional[Callable[[str], None]] = None):
 
     try:
         with sync_playwright() as p:
-            context = p.chromium.launch_persistent_context(
-                user_data_dir=str(SESSION_DIR),
-                headless=False,
-                viewport={"width": 1280, "height": 900},
-                args=["--disable-blink-features=AutomationControlled"],
-            )
+            context = _launch_context(p, headless=False)
             page = context.pages[0] if context.pages else context.new_page()
             page.goto("https://www.patreon.com/login", wait_until="domcontentloaded", timeout=60000)
 
             deadline = time.time() + 600  # 10 min
             while time.time() < deadline:
                 time.sleep(2)
-                url = page.url.lower()
-                if "login" not in url and "auth" not in url:
+                if _logged_in(page):
                     _log("Login detected — saving session.")
                     time.sleep(2)
                     context.close()
@@ -124,8 +252,8 @@ def run_scrape(log: Optional[Callable[[str], None]] = None):
                 headless=True,
                 downloads_path=str(collector.DOWNLOADS_DIR),
                 accept_downloads=True,
-                viewport={"width": 1280, "height": 900},
-                args=["--disable-blink-features=AutomationControlled"],
+                viewport=_VIEWPORT,
+                args=_CHROMIUM_ARGS,
                 user_agent=(
                     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
                     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
