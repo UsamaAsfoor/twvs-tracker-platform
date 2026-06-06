@@ -11,6 +11,7 @@ primary_region = "iad"
   TWVS_SCRIPTS_DIR = "/app/scripts"
   TWVS_SESSION_DIR = "/data/browser_session"
   TWVS_DOWNLOADS_DIR = "/data/downloads_temp"
+  PUBLIC_BASE_URL = "https://twvs-tracker.fly.dev"
   SCRAPE_INTERVAL_HOURS = "24"
 
 [http_service]

@@ -32,12 +32,15 @@
         <h2>Patreon session</h2>
         <p id="session-status" class="status-pill">Checking…</p>
         <p id="session-detail" class="muted"></p>
+        <p id="oauth-redirect-uri" class="muted hidden"></p>
         <div class="actions">
-          <button id="login-patreon-btn" type="button">Open Patreon login browser</button>
+          <button id="login-patreon-oauth-btn" type="button">Connect with Patreon</button>
+          <button id="disconnect-patreon-oauth-btn" type="button" class="ghost hidden">Disconnect OAuth</button>
+          <button id="login-patreon-btn" type="button" class="ghost">Open login browser (local)</button>
           <button id="login-patreon-headless-btn" type="button" class="hidden">Seed session (headless)</button>
           <button id="refresh-session-btn" type="button" class="ghost">Refresh status</button>
         </div>
-        <p id="session-hint" class="hint">A Chromium window opens. Log in with email + password (not Google). Session is saved for headless scrapes.</p>
+        <p id="session-hint" class="hint">Use OAuth to connect Patreon on Fly.io. The redirect URI below must be registered in your Patreon client.</p>
       </article>
 
       <article class="card">

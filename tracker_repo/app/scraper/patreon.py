@@ -184,6 +184,48 @@ def credentials_configured() -> bool:
     return bool(PATREON_EMAIL and PATREON_PASSWORD)
 
 
+def bootstrap_session_from_oauth(
+    access_token: str,
+    log: Optional[Callable[[str], None]] = None,
+) -> tuple[bool, str]:
+    """Seed the persistent Chromium profile using a Patreon OAuth access token."""
+    _log = log or (lambda _m: None)
+
+    try:
+        from playwright.sync_api import sync_playwright
+    except ImportError:
+        return False, "Playwright not installed."
+
+    ensure_dirs()
+    _log("Bootstrapping browser session from Patreon OAuth token…")
+
+    try:
+        with sync_playwright() as p:
+            context = _launch_context(p, headless=True)
+            page = context.pages[0] if context.pages else context.new_page()
+
+            def _attach_auth(route) -> None:
+                headers = {
+                    **route.request.headers,
+                    "authorization": f"Bearer {access_token}",
+                }
+                route.continue_(headers=headers)
+
+            page.route("**/*patreon.com/**", _attach_auth)
+            page.goto("https://www.patreon.com/home", wait_until="domcontentloaded", timeout=60000)
+            time.sleep(3)
+
+            if _logged_in(page):
+                _log("Browser session bootstrapped from OAuth.")
+                context.close()
+                return True, "Patreon browser session saved via OAuth."
+
+            context.close()
+            return False, "OAuth connected but browser session could not be established for scraping."
+    except Exception as exc:
+        return False, f"OAuth browser bootstrap failed: {exc}"
+
+
 def open_login_browser(log: Optional[Callable[[str], None]] = None):
     """Launch a visible browser for manual Patreon login."""
     _log = log or (lambda _m: None)

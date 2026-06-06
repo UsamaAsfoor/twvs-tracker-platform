@@ -79,23 +79,51 @@ function renderSteps(available) {
 }
 
 function renderPatreonControls(data) {
+  const oauthBtn = document.getElementById('login-patreon-oauth-btn');
+  const disconnectBtn = document.getElementById('disconnect-patreon-oauth-btn');
   const headlessBtn = document.getElementById('login-patreon-headless-btn');
+  const redirectEl = document.getElementById('oauth-redirect-uri');
   const hint = document.getElementById('session-hint');
+
+  if (data.patreon_oauth_configured) {
+    oauthBtn.classList.remove('hidden');
+    redirectEl.classList.remove('hidden');
+    redirectEl.textContent = `Patreon redirect URI: ${data.patreon_redirect_uri}`;
+  } else {
+    oauthBtn.classList.add('hidden');
+    redirectEl.classList.add('hidden');
+  }
+
+  if (data.patreon_oauth_connected) {
+    disconnectBtn.classList.remove('hidden');
+    oauthBtn.textContent = 'Reconnect Patreon';
+    hint.textContent = data.patreon_oauth?.user_name
+      ? `OAuth connected as ${data.patreon_oauth.user_name}. Browser session is used for scraping comment hearts.`
+      : 'OAuth connected. Browser session is used for scraping comment hearts.';
+  } else if (data.patreon_oauth_configured) {
+    disconnectBtn.classList.add('hidden');
+    oauthBtn.textContent = 'Connect with Patreon';
+    hint.textContent =
+      'Click Connect with Patreon, approve access in Patreon, then return here. Register the redirect URI below in your Patreon client.';
+  } else {
+    disconnectBtn.classList.add('hidden');
+    oauthBtn.textContent = 'Connect with Patreon';
+    hint.textContent =
+      'Set PATREON_CLIENT_ID and PATREON_CLIENT_SECRET on the server, then register the redirect URI in Patreon.';
+  }
+
   if (data.patreon_credentials_configured) {
     headlessBtn.classList.remove('hidden');
-    hint.textContent =
-      'On Fly.io use "Seed session (headless)". Locally you can open the browser window instead. Email + password only (not Google/GitHub).';
   } else {
     headlessBtn.classList.add('hidden');
-    hint.textContent =
-      'A Chromium window opens. Log in with email + password (not Google). On Fly.io, set PATREON_EMAIL and PATREON_PASSWORD secrets first.';
   }
 }
 
 function renderSystemStatus(data) {
   const ul = document.getElementById('system-status');
   ul.innerHTML = `
-    <li><strong>Patreon creds:</strong> ${data.patreon_credentials_configured ? 'Configured (headless login available)' : 'Not set on server'}</li>
+    <li><strong>Patreon OAuth:</strong> ${data.patreon_oauth_connected ? `Connected (${data.patreon_oauth?.user_name || 'creator'})` : data.patreon_oauth_configured ? 'Not connected yet' : 'Client not configured'}</li>
+    <li><strong>Patreon creds:</strong> ${data.patreon_credentials_configured ? 'Configured (headless fallback)' : 'Not set'}</li>
     <li><strong>API key:</strong> ${data.anthropic_key_configured ? 'Configured' : 'Not set (LLM steps will skip)'}</li>
     <li><strong>Engine data:</strong> ${data.engine_data_updated ? fmtFileTime(data.engine_data_updated) : 'Not built yet'}</li>
     <li><strong>Published frontend:</strong> ${data.standalone_updated ? fmtFileTime(data.standalone_updated) : 'Not published yet'}</li>
@@ -198,6 +226,16 @@ document.getElementById('logout-btn').addEventListener('click', () => {
   showLogin();
 });
 
+document.getElementById('login-patreon-oauth-btn').addEventListener('click', async () => {
+  const data = await api('/api/admin/patreon/oauth/start');
+  window.location.href = data.authorize_url;
+});
+
+document.getElementById('disconnect-patreon-oauth-btn').addEventListener('click', async () => {
+  await api('/api/admin/patreon/oauth/disconnect', { method: 'POST' });
+  await refreshDashboard();
+});
+
 document.getElementById('login-patreon-btn').addEventListener('click', async () => {
   const data = await api('/api/admin/patreon/login', { method: 'POST' });
   alert(data.message);
@@ -235,5 +273,20 @@ document.getElementById('run-pipeline-btn').addEventListener('click', async () =
   await refreshDashboard();
 });
 
-if (token()) showDashboard();
-else showLogin();
+function handleOAuthReturn() {
+  const params = new URLSearchParams(window.location.search);
+  const status = params.get('patreon_oauth');
+  if (!status) return;
+  const detail = params.get('detail') || '';
+  if (status === 'success') alert(`Patreon connected. ${detail}`);
+  else if (status === 'warning') alert(`Patreon OAuth saved with a warning: ${detail}`);
+  else alert(`Patreon OAuth failed: ${detail}`);
+  window.history.replaceState({}, '', window.location.pathname);
+}
+
+if (token()) {
+  showDashboard();
+  handleOAuthReturn();
+} else {
+  showLogin();
+}

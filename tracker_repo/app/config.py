@@ -38,6 +38,14 @@ JWT_EXPIRE_HOURS = int(os.environ.get("JWT_EXPIRE_HOURS", "24"))
 PATREON_EMAIL = os.environ.get("PATREON_EMAIL", "").strip()
 PATREON_PASSWORD = os.environ.get("PATREON_PASSWORD", "").strip()
 
+PUBLIC_BASE_URL = os.environ.get("PUBLIC_BASE_URL", "http://127.0.0.1:8000").rstrip("/")
+PATREON_CLIENT_ID = os.environ.get("PATREON_CLIENT_ID", "").strip()
+PATREON_CLIENT_SECRET = os.environ.get("PATREON_CLIENT_SECRET", "").strip()
+PATREON_REDIRECT_URI = os.environ.get(
+    "PATREON_REDIRECT_URI",
+    f"{PUBLIC_BASE_URL}/api/admin/patreon/oauth/callback",
+).strip()
+
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ANTHROPIC_KEY_FILE = Path(
     os.environ.get("ANTHROPIC_KEY_FILE", REPO_ROOT / "anthropic_api_key.txt")
