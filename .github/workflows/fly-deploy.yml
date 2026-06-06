@@ -20,6 +20,7 @@ jobs:
       - uses: superfly/flyctl-actions/setup-flyctl@master
 
       - name: Deploy to Fly.io
-        run: flyctl deploy --config tracker_repo/fly.toml -a twvs-tracker --remote-only
+        working-directory: tracker_repo
+        run: flyctl deploy -a twvs-tracker --remote-only
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
